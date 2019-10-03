@@ -6,17 +6,17 @@ définition: Style de musique soutenant un chant aux paroles, improvisées ou no
 
 rap us
 eminem: originaire de Détroit   
-titres les plus connus: Lose yourself, Stan, Mockingbird
+titres les plus connus: Lose yourself, Stan, Mockingbird, Without me
 
 rap fr
 columbine
-titres les plus connus: 
+titres les plus connus: Pierre, feuille, papier, ciseau; c'est pas grave, adieu bientôt, les prélis
 nekfeu
-titres les plus connus:
+titres les plus connus: princesse, on verra, ma dope
 PNL
-titres les plus connus:
+titres les plus connus: au DD, deux frères
 orelsan
-titres les plus connus:
+titres les plus connus: paradis, défaite de famille, mes grands-parents
 
 
 
@@ -33,10 +33,10 @@ titres les plus connus:
 
 
 rock
-muse:
-titres les plus connus:
-queen:
-titres les plus connus:
+muse: groupe Britannique, composé de Matthew Bellamy (chanteur), Christopher Wolstenholme (bassiste) et Dominic Howard (batteur) 
+titres les plus connus: Undisclosed Desires, Pressure, Thought Contagion, Mercy
+queen: groupe Britannique, formé en 1970 par Freddie Mercury, Brian May et Roger Taylor
+titres les plus connus: we are the champions, bohemian Rapsody, we will rock you, the show must go on, I want it all
 
 instruments préférés
 

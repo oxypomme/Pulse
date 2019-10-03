@@ -6,7 +6,9 @@
   - [I. Charte Graphique](#i-charte-graphique)
     - [a. Choix des couleurs](#a-choix-des-couleurs)
     - [b. Structure des pages](#b-structure-des-pages)
-  - [II. Organigramme](#ii-organigramme)
+  - [II. Equipe](#ii-equipe)
+  - [III. Annexes](#iii-annexes)
+    - [a. Organigramme](#a-organigramme)
 
 ## I. Charte Graphique
 
@@ -16,10 +18,14 @@ C'est marrant parce que c'est vide
 
 ### b. Structure des pages
 
-...
+Le titre est pas assez explicit ?!
 
-## II. Organigramme
+## II. Equipe
+
+Comment on s'organisera pour le reste du projet.
+
+## III. Annexes
+
+### a. Organigramme
 
 ![InsertOrganigramme](../res/orga.jpg)
-
-...

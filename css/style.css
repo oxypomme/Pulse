@@ -7,19 +7,23 @@
 
 :root {
     --backDark: rgb(40, 40, 40);
+    --bg_header: rgb(40, 40, 40);
+    --bg_nav: hsl(var(--Hue), 100%, 45%);
     --fontBase: white;
     --Hue: 202;
+    --main_color: hsl(var(--Hue), 100%, 45%);
+    --accent_color: hsl(var(--Hue), 100%, 45%);
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background-color: var(--backDark);
     color: var(--fontBase);
 }
 
 .headerNav {
-    background-color: hsl(var(--Hue), 100%, 45%);
+    background-color: var(--bg_nav);
 }
 
 a {
@@ -45,11 +49,26 @@ a:hover {
 }
 
 header {
-    border-bottom: 1px solid grey;
     border: 2px solid green;
     display: block;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     width: 83vw;
+}
+
+h1{
+    border-bottom: 1px solid grey;
+    width: 50vw;
+    display: block;
+    margin: 10px auto 5px auto;
+    padding-bottom: 5px;
+}
+
+.subtitle, h1{
+    text-align: center;
+}
+
+.subtitle{
+    padding-top: 10px;
 }
 
 aside {
@@ -78,8 +97,25 @@ iframe {
 main {
     border: 2px solid yellow;
     display: block;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     width: 83vw;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+article{
+    padding: 0px 10px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 5em; 
 }
 
 footer {

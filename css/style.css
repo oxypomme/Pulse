@@ -1,14 +1,37 @@
-:root
-{
-    --backDark : rgb(40, 40, 40);
-    --fontBase : white;
+:root {
+    --backDark: rgb(40, 40, 40);
+    --fontBase: white;
+    --Hue: 202;
 }
-body{
+
+body {
     margin: 0px;
     padding: 0px;
     background-color: var(--backDark);
     color: var(--fontBase);
 }
-body.header{
-    border-bottom: solid 1px var(--fontBase);
+
+.headerNav {
+    background-color: hsl(var(--Hue), 100%, 45%);
+}
+
+a {
+    color: hsl(var(--Hue), 80%, 50%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: hsl(var(--Hue), 80%, 80%);
+}
+
+.headerNav a {
+    color: var(--fontBase);
+    text-decoration: none;
+    font-weight: normal;
+    display: block;
+}
+.headerNav a:hover {
+    color: hsl(var(--Hue), 100%, 45%);
+    background-color: var(--fontBase);
 }

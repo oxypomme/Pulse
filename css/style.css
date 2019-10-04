@@ -22,10 +22,6 @@ body {
     color: var(--fontBase);
 }
 
-.headerNav {
-    background-color: var(--bg_nav);
-}
-
 a {
     color: hsl(var(--Hue), 80%, 50%);
     text-decoration: none;
@@ -36,16 +32,37 @@ a:hover {
     color: hsl(var(--Hue), 80%, 80%);
 }
 
-.headerNav a {
+.header-nav{
+    background-color: var(--bg_nav);
+}
+
+.header-nav a {
     color: var(--fontBase);
     text-decoration: none;
     font-weight: normal;
     display: block;
 }
 
-.headerNav a:hover {
+.header-nav a:hover {
     color: hsl(var(--Hue), 100%, 45%);
     background-color: var(--fontBase);
+}
+
+.dropdown-title{
+    padding: 10px 38px;
+}
+
+.header-nav ul{
+    margin-top: 0;
+    margin-left: -20px;
+}
+
+.header-nav li{
+    list-style: none;
+}
+
+.header-nav img{
+    height: 34px;
 }
 
 header {

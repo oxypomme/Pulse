@@ -4,58 +4,90 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-:root
-{
-    --backDark : rgb(40, 40, 40);
-    --fontBase : white;
+
+:root {
+    --backDark: rgb(40, 40, 40);
+    --fontBase: white;
+    --Hue: 202;
 }
-body{
+
+body {
     margin: 0px;
     padding: 0px;
     background-color: var(--backDark);
     color: var(--fontBase);
 }
-body.header{
-    border-bottom: solid 1px var(--fontBase);
+
+.headerNav {
+    background-color: hsl(var(--Hue), 100%, 45%);
 }
-header{
+
+a {
+    color: hsl(var(--Hue), 80%, 50%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: hsl(var(--Hue), 80%, 80%);
+}
+
+.headerNav a {
+    color: var(--fontBase);
+    text-decoration: none;
+    font-weight: normal;
+    display: block;
+}
+
+.headerNav a:hover {
+    color: hsl(var(--Hue), 100%, 45%);
+    background-color: var(--fontBase);
+}
+
+header {
     border-bottom: 1px solid grey;
     border: 2px solid green;
     display: block;
     margin: 0 auto 0 auto;
     width: 83vw;
 }
-aside{
+
+aside {
     position: fixed;
     top: 12.5vh;
     height: 75vh;
     border: 2px solid blue;
 }
-iframe{
-    border:0;
+
+iframe {
+    border: 0;
     overflow: hidden;
     width: 20vw;
     height: 100%;
 }
-.navbar iframe{
+
+.navbar iframe {
     border: 2px solid red;
     display: none;
 }
-.navbar:hover iframe{
+
+.navbar:hover iframe {
     display: block;
 }
-main{
+
+main {
     border: 2px solid yellow;
     display: block;
     margin: 0 auto 0 auto;
     width: 83vw;
 }
-footer{
+
+footer {
     border: 1px solid orange;
     position: fixed;
     bottom: 0;
     height: 12.5vh;
-    width:100%;
+    width: 100%;
 }
 
 
@@ -63,58 +95,58 @@ footer{
 /* ANIMATIONS */
 @-webkit-keyframes slideInLeft {
     from {
-      transform: translate3d(-100%, 0, 0);
-      visibility: visible;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
     }
-  
-    to {
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  @keyframes slideInLeft {
-    from {
-      transform: translate3d(-100%, 0, 0);
-      visibility: visible;
-    }
-  
-    to {
-      transform: translate3d(0, 0, 0);
-    }
-  }
 
-  @-webkit-keyframes slideOutLeft {
-    from {
-      transform: translate3d(0, 0, 0);
-    }
-  
     to {
-      visibility: hidden;
-      transform: translate3d(-100%, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
-  }
-  
-  @keyframes slideOutLeft {
+}
+
+@keyframes slideInLeft {
     from {
-      transform: translate3d(0, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
     }
-  
+
     to {
-      visibility: hidden;
-      transform: translate3d(-100%, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
-  }
-  
-  .navbar iframe{
+}
+
+@-webkit-keyframes slideOutLeft {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        visibility: hidden;
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+@keyframes slideOutLeft {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        visibility: hidden;
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.navbar iframe {
     animation-name: slideOutLeft;
 
     animation-duration: 0.25s;
     animation-fill-mode: both;
-  }
+}
 
-  .navbar:hover iframe{
+.navbar:hover iframe {
     animation-name: slideInLeft;
 
     animation-duration: 0.25s;
     animation-fill-mode: both;
-  }
+}

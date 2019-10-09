@@ -10,6 +10,7 @@
     --bg_header: rgb(40, 40, 40);
     --bg_nav: hsl(var(--Hue), 100%, 45%);
     --fontBase: white;
+    --fontTitle: white;
     --Hue: 202;
     --main_color: hsl(var(--Hue), 100%, 45%);
     --accent_color: hsl(var(--Hue), 100%, 45%);
@@ -86,6 +87,7 @@ h1 {
     display: block;
     margin: 10px auto 5px auto;
     padding-bottom: 5px;
+    color: var(--fontTitle);
 }
 
 .subtitle,

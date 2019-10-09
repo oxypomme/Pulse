@@ -15,7 +15,13 @@
 
 ## I. Charte Graphique
 
+Polices d'écritures provenant de [Google Fonts](https://fonts.google.com/)
+
 ### a. Choix des couleurs
+
+Principales couleurs :
+
+![MainColors](/res/palette.png)
 
 C'est marrant parce que c'est vide
 
@@ -39,7 +45,7 @@ GitHub
 
 ### a. Organigramme
 
-![InsertOrganigramme](../res/orga.jpg)
+![InsertOrganigramme](/res/orga.jpg)
 
 ### b. Sources
 

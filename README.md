@@ -47,7 +47,7 @@ Pour la version mobile, la barre de navigation est en dessous du titre, avec un 
 
 Chacun a fait sa partie à partir d'une base crée de façon commune. Chacun développe son style pour sa page après avoir défini des règles communes.
 
-Pour la page d'accueil, *X* s'est occupé de designé la page, *Y* s'est occupé de l'HTML.
+Pour la page d'accueil, *X* s'est occupé d'organiser la page, *Y* s'est occupé de l'HTML.
 
 ![InsertOrganigramme](/res/orga.jpg)
 

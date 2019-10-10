@@ -1,4 +1,4 @@
-/*@import url('https://fonts.google.com/);*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap');
 
 * {
     -moz-box-sizing: border-box;
@@ -6,36 +6,38 @@
 }
 
 :root {
-    --backDark: rgb(40, 40, 40);
-    --bg_header: rgb(40, 40, 40);
-    --bg_nav: hsl(var(--Hue), 100%, 45%);
-    --fontBase: white;
-    --fontTitle: white;
-    --Hue: 202;
-    --main_color: hsl(var(--Hue), 100%, 45%);
-    --accent_color: hsl(var(--Hue), 100%, 45%);
+    --bg: white;
+    --bg_header: rgba(255, 255, 255, 0.4);
+    --bg_dark: rgb(200, 200, 200);
+    --fontBase: black;
+    --fontTitle: black;
+    --Hue: 176;
+    --main_color: hsl(var(--Hue), 80%, 45%);
+    --accent_color_light: hsl(var(--Hue), 100%, 30%);
+    --accent_color_medium: hsl(var(--Hue), 80%, 45%);
+    --accent_color_dark: hsl(var(--Hue), 60%, 30%);
 }
 
 body {
     margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--backDark);
+    background-color: var(--bg);
     color: var(--fontBase);
 }
 
 a {
-    color: hsl(var(--Hue), 80%, 50%);
+    color: var(--accent_color_dark);
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: hsl(var(--Hue), 80%, 80%);
+    color: var(--accent_color_medium);
 }
 
-.header-nav {
-    background-color: var(--bg_nav);
+.header {
+    background-color: var(--bg_dark);
 }
 
 .header-nav a {
@@ -46,8 +48,8 @@ a:hover {
 }
 
 .header-nav a:hover {
-    color: hsl(var(--Hue), 100%, 45%);
-    background-color: var(--fontBase);
+    background-color: var(--bg);
+    border-radius: .5em;
 }
 
 
@@ -64,13 +66,14 @@ a:hover {
 .header-nav>ul li {
     list-style: none;
     padding-left: .5em;
+    vertical-align: middle;
 }
 
 .header-nav img {
     height: 2.5em;
 }
 
-header{
+header {
     background-color: var(--bg_header);
 }
 
@@ -79,6 +82,7 @@ header{
     display: block;
     margin: 0 auto;
     width: 83vw;
+    font-weight: 100;
 }
 
 h1 {
@@ -88,6 +92,7 @@ h1 {
     margin: 10px auto 5px auto;
     padding-bottom: 5px;
     color: var(--fontTitle);
+    font-weight: inherit;
 }
 
 .subtitle,
@@ -123,7 +128,7 @@ iframe {
 }
 
 main {
-    border: 2px solid yellow;
+    border: 2px solid brown;
     display: block;
     margin: 0 auto;
     width: 83vw;

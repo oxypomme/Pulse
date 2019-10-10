@@ -3,45 +3,68 @@
 > La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes fans de musique.
 
 - [NomDuSite](#nomdusite)
-  - [I. Charte Graphique](#i-charte-graphique)
+  - [I. L'idée du site](#i-lid%c3%a9e-du-site)
+    - [a. Le contenu](#a-le-contenu)
+    - [b. Le public](#b-le-public)
+  - [II. Charte Graphique](#ii-charte-graphique)
     - [a. Choix des couleurs](#a-choix-des-couleurs)
-    - [b. Structure des pages](#b-structure-des-pages)
-  - [II. Equipe](#ii-equipe)
+    - [b. Choix des polices d'écritures](#b-choix-des-polices-d%c3%a9critures)
+    - [c. Structure des pages](#c-structure-des-pages)
+  - [III. Equipe](#iii-equipe)
     - [a. Répartition des tâches](#a-r%c3%a9partition-des-t%c3%a2ches)
     - [b. Organisation](#b-organisation)
-  - [III. Annexes](#iii-annexes)
+  - [IV. Annexes](#iv-annexes)
     - [a. Structure](#a-structure)
     - [b. Sources](#b-sources)
 
-## I. Charte Graphique
+<div style="page-break-after: always;"></div>
+
+## I. L'idée du site
+
+### a. Le contenu
+
+Nous n'allons pas présenter d'époque, de période, particulière mais plus faire une histoire générale de la musique, montrer comment la musique influence nos vies au quotidien et faire la présentation de différents style : Rock, metal, électro et pop.
+
+Pour ce faire, nous imaginons un site avec un style moderne, avec des vidéos, des liens vers sites d'actualité musicales et des liens vers des applis musique.
+
+Ce site n'est pas une plateforme de référencement, plus d'une plateforme pour découvrir certains styles et des artistes de la musique.
+
+### b. Le public
+
+Le public visé par notre site sont les adolescents, les adultes et les seniors.
+
+## II. Charte Graphique
 
   !!!info
-
     Polices d'écritures provenant de [Google Fonts](https://fonts.google.com/).
 
 ### a. Choix des couleurs
 
-Principales couleurs :
+Principales couleurs de la page :
 
-![MainColors](/res/palette.png)
+![Couleurs](/res/palette.png)
 
-Thème lumineux pour une meilleure intégration du contenu.
+Nous avons choisi de faire un thème lumineux pour une meilleure intégration du contenu. Le fond sera donc d'une couleur claire (blanche) avec un motif discret  pour éviter un fond ennuyant.
 
-Fond général : ajout d'un motif discret pour éviter un fond ennuyant.
+Le fond de la navigation sera distingué du reste de la page grâce à une image floutée.
 
-Fond navigation : image floutée
+Les couleurs choisies sont en accord avec le fond, le texte est avec un contraste suffisamment élevé pour rester lisible.
 
-Couleur d'accentuation (principale) : Couleur choisie en accord avec le fond.
+### b. Choix des polices d'écritures
 
-Couleur du texte et des titres : Contraste assez élevé pour rester lisible.
+Nous avons choisit une police d'écriture légère et fine (Roboto avec un poids de 100) pour le titre afin de rester dans un thème léger. Le reste du texte est avec la même police d'écriture mais avec un poids plus grand (400).
 
-### b. Structure des pages
+### c. Structure des pages
+
+![StructurePage](/res/structurePage.jpg)
+
+<!--TODO: Structure page-->
 
 Le contenu est centré sur la page est occupe 90% de la largeur disponible, la barre de navigation est sur le coté est apparait au survol de la zone.
 
 Pour la version mobile, la barre de navigation est en dessous du titre, avec un élément par ligne. Le contenu occupe la totalité de l'écran est utilisé.
 
-## II. Equipe
+## III. Equipe
 
 ### a. Répartition des tâches
 
@@ -49,42 +72,26 @@ Chacun a fait sa partie à partir d'une base crée de façon commune. Chacun dé
 
 Pour la page d'accueil, *X* s'est occupé d'organiser la page, *Y* s'est occupé de l'HTML.
 
-![InsertOrganigramme](/res/orga.jpg)
+<!--TODO: Qui fait l'accueil ?-->
+
+![Organigramme](/res/orga.jpg)
+
+<!--TODO: Organigramme-->
 
 ### b. Organisation
 
-GitHub pour le code source, les images et les ressources (fichiers utilisés pour la création d'images).
+Nous utilisons GitHub pour le partage du code source, des images et des ressources (fichiers utilisés pour la création d'images).
 
-## III. Annexes
+Nous avons aussi tout de suite défini quels styles de musique chacun allait aborder pour faire nos recherches de notre coté.
+
+## IV. Annexes
 
 ### a. Structure
 
-![Structure](/res/orga.jpg)
+![Structure](/res/structureFichier.jpg)
+
+<!--TODO: Structure-->
 
 ### b. Sources
 
 DES SOURCES !
-
-> Que pourriez-vous imaginer ? Essayer de nous surprendre en rendant votre site le plus attractif possible.
-
-Idées : Style moderne sombre, vidéos, liens vers sites actus, applis musique.
-
-> Dans un premier temps, il vous faudra identifier les publics qui vont venir visiter votre site.
-
-Idées : Adolescents, adultes et/ou seniors.
-
-> S’agit-il d’une plateforme de référencement ?
-
-Non, plus d'une plateforme pour découvrir certains styles et des artistes de la musique.
-
-> Quelle est votre approche : thématique (Rap, rock, métal Etc.),  focalisée sur une période, sur un aspect particulier de la musique ?
-
-Aucune période, plusieurs styles seront présentés : Rock, metal, electro, pop.
-
-> Quelle est l’influence de la musique sur notre quotidien ?
-
-Presenter Rapidement
-
-> Référencez-bien vos sources.
-
-Cf III.b.

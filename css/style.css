@@ -7,7 +7,7 @@
 
 :root {
     --bg: white;
-    --bg_header: rgba(255, 255, 255, 1);
+    --bg_header: rgba(255, 255, 255, 0.9);
     --bg_dark: rgb(200, 200, 200);
     --fontBase: black;
     --fontTitle: black;
@@ -74,14 +74,15 @@ a:hover {
     height: 2.5em;
 }
 
-.head-img{
+.head-img {
     z-index: 0;
 }
-.blankDiv{
+
+.blankDiv {
     height: calc(50vh - 100px);
-    border: 2px solid lime;
 }
-.head-img img{
+
+.head-img img {
     width: 100vw;
     height: 100vh;
     position: absolute;
@@ -92,12 +93,11 @@ header {
     background-color: var(--bg_header);
     position: sticky;
     height: 100px;
-    top:0;
+    top: 0;
     z-index: 2;
 }
 
 .title {
-    border: 2px solid green;
     display: block;
     margin: 0 auto;
     width: 83vw;
@@ -105,7 +105,7 @@ header {
 }
 
 h1 {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid var(--main_color);
     width: 50vw;
     display: block;
     margin: 10px auto 5px auto;
@@ -125,10 +125,9 @@ h1 {
 
 aside {
     position: fixed;
-    top:0;
+    top: 0;
     height: 100vh;
-    border: 2px solid blue;
-    z-index:10;
+    z-index: 10;
 }
 
 iframe {
@@ -139,7 +138,6 @@ iframe {
 }
 
 .navbar iframe {
-    border: 2px solid red;
     display: none;
 }
 
@@ -149,12 +147,15 @@ iframe {
 
 main {
     background-color: var(--bg);
-    border: 2px solid brown;
     display: block;
     margin: 0 auto;
     margin-top: 50vh;
     width: 83vw;
     z-index: 1;
+}
+
+section {
+    border-top: 1px solid var(--main_color);
 }
 
 .float-right {
@@ -175,7 +176,6 @@ p {
 }
 
 footer {
-    border: 1px solid orange;
     height: 12.5vh;
     width: 100%;
 }

@@ -7,7 +7,7 @@
 
 :root {
     --bg: white;
-    --bg_header: rgba(255, 255, 255, 0.4);
+    --bg_header: rgba(255, 255, 255, 1);
     --bg_dark: rgb(200, 200, 200);
     --fontBase: black;
     --fontTitle: black;
@@ -24,6 +24,7 @@ body {
     padding: 0;
     background-color: var(--bg);
     color: var(--fontBase);
+    overflow-x: hidden;
 }
 
 a {
@@ -73,8 +74,26 @@ a:hover {
     height: 2.5em;
 }
 
+.head-img{
+    z-index: 0;
+}
+.blankDiv{
+    height: calc(50vh - 100px);
+    border: 2px solid lime;
+}
+.head-img img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
 header {
     background-color: var(--bg_header);
+    position: sticky;
+    height: 100px;
+    top:0;
+    z-index: 2;
 }
 
 .title {
@@ -106,9 +125,10 @@ h1 {
 
 aside {
     position: fixed;
-    top: 12.5vh;
-    height: 75vh;
+    top:0;
+    height: 100vh;
     border: 2px solid blue;
+    z-index:10;
 }
 
 iframe {
@@ -124,14 +144,17 @@ iframe {
 }
 
 .navbar:hover iframe {
-    display: block;
+    display: inline-block;
 }
 
 main {
+    background-color: var(--bg);
     border: 2px solid brown;
     display: block;
     margin: 0 auto;
+    margin-top: 50vh;
     width: 83vw;
+    z-index: 1;
 }
 
 .float-right {
@@ -153,8 +176,6 @@ p {
 
 footer {
     border: 1px solid orange;
-    position: fixed;
-    bottom: 0;
     height: 12.5vh;
     width: 100%;
 }

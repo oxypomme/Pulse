@@ -68,11 +68,11 @@ Pour la version mobile, la barre de navigation est en dessous du titre, avec un 
 
 ### a. Répartition des tâches
 
-Chacun a fait sa partie à partir d'une base crée de façon commune. Chacun développe son style pour sa page après avoir défini des règles communes.
+Chacun a fait sa partie à partir d'une base créée de façon commune. 
 
-Pour la page d'accueil, *X* s'est occupé d'organiser la page, *Y* s'est occupé de l'HTML.
+Chacun développe son style pour sa page après avoir défini des règles communes.
 
-<!--TODO: Qui fait l'accueil ?-->
+La page d'accueil à été créée de façon commune, les points délicats on étés abordés par les membres les plus expérimentés, les points plus "simples" on été fait par les membres un peu moins expérimentés.
 
 ![Organigramme](/res/orga.jpg)
 
@@ -88,9 +88,24 @@ Nous avons aussi tout de suite défini quels styles de musique chacun allait abo
 
 ### a. Structure
 
-![Structure](/res/structureFichier.jpg)
+```bash
+|   footer.html
+|   index.html
+|   nav.html
+|   
+|--css
+|     mobile.css
+|     style.css
+|--music
+|     electro.html
+|     metal.html
+|     pop.html
+|     rock.html
+\--res
+        head_back.mp4
+```
 
-<!--TODO: Structure-->
+<!--TODO: MAJ Structure-->
 
 ### b. Sources
 

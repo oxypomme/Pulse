@@ -72,7 +72,7 @@ Pour la version mobile, la barre de navigation est en dessous du titre, avec un 
 
 ### a. Répartition des tâches
 
-Chacun a fait sa partie à partir d'une base créée de façon commune. 
+Chacun a fait sa partie à partir d'une base créée de façon commune.
 
 Chacun développe son style pour sa page après avoir défini des règles communes.
 
@@ -98,7 +98,7 @@ Nous avons aussi tout de suite défini quels styles de musique chacun allait abo
 |   footer.html
 |   index.html
 |   nav.html
-|   
+|
 |--css
 |     mobile.css
 |     style.css

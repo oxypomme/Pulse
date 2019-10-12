@@ -1,5 +1,7 @@
 # NomDuSite
 
+<!--TODO: Nom du site-->
+
 > La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes fans de musique.
 
 - [NomDuSite](#nomdusite)
@@ -42,9 +44,11 @@ Le public visé par notre site sont les adolescents, les adultes et les seniors.
 
 Principales couleurs de la page :
 
-![Couleurs](/res/palette.png)
+![Couleurs](res/palette.png)
 
 Nous avons choisi de faire un thème lumineux pour une meilleure intégration du contenu. Le fond sera donc d'une couleur claire (blanche) avec un motif discret  pour éviter un fond ennuyant.
+
+<div style="page-break-after: always;"></div>
 
 Le fond de la navigation sera distingué du reste de la page grâce à une image floutée.
 
@@ -83,6 +87,8 @@ La page d'accueil à été créée de façon commune, les points délicats on é
 Nous utilisons GitHub pour le partage du code source, des images et des ressources (fichiers utilisés pour la création d'images).
 
 Nous avons aussi tout de suite défini quels styles de musique chacun allait aborder pour faire nos recherches de notre coté.
+
+<div style="page-break-after: always;"></div>
 
 ## IV. Annexes
 

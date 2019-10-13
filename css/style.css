@@ -57,7 +57,10 @@ a:hover {
 }
 .header-nav a:hover {
     background-color: var(--bg);
-    border-radius: .5em;
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+    text-shadow: 0 0 .2em var(--accent_color_medium);
+    box-shadow: 0 0 .25em var(--accent_color_medium);
 }
 
 
@@ -135,6 +138,7 @@ h1 {
 }
 
 aside {
+    background-color: var(--bg_header);
     position: fixed;
     top: 0;
     height: 100vh;

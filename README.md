@@ -108,8 +108,10 @@ Nous avons aussi tout de suite défini quels styles de musique chacun allait abo
 |     rock.html
 |     rap.html
 |    alternative.html
-\--res
-        head_back.mp4
+\--images
+        background.svg
+        fleche.png
+        ligne.png
         autres images
 ```
 

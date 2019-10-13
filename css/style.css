@@ -100,7 +100,7 @@ a:hover {
     z-index: 0;
 }
 
-.blankDiv {
+.blank-div {
     height: calc(50vh - 100px);
 }
 

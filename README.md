@@ -2,7 +2,7 @@
 
 <!--TODO: Nom du site-->
 
-> La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes passionés de musique.
+> La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes passionnés de musique.
 
 - [NomDuSite](#nomdusite)
   - [I. L'idée du site](#i-lid%c3%a9e-du-site)
@@ -17,7 +17,6 @@
     - [b. Organisation](#b-organisation)
   - [IV. Annexes](#iv-annexes)
     - [a. Structure](#a-structure)
-    - [b. Sources](#b-sources)
 
 <div style="page-break-after: always;"></div>
 
@@ -42,9 +41,9 @@ Le public visé par notre site sont les adolescents, les adultes et les seniors.
 
 ### a. Choix des couleurs
 
-Principales couleurs de la page :
+Nous avons choisi ces principales couleurs :
 
-![Couleurs](res/palette.png)
+![Couleurs](https://rawcdn.githack.com/oxypomme/PT19_20/55a64ce3e01246102ba0adca0ad5c32e34fb3ce8/res/palette.png)
 
 Nous avons choisi de faire un thème lumineux pour une meilleure intégration du contenu. Le fond sera donc d'une couleur claire (blanche) avec un motif discret pour éviter un fond ennuyant.
 
@@ -60,13 +59,14 @@ Nous avons choisit une police d'écriture légère et fine (Roboto avec un poids
 
 ### c. Structure des pages
 
-![StructurePage](/res/structure.jpg)
-
-<!--TODO: Structure page-->
+![StructurePage](https://rawcdn.githack.com/oxypomme/PT19_20/55a64ce3e01246102ba0adca0ad5c32e34fb3ce8/res/structure.jpg)<br/>
+<font size="2">*Structure d'une page*</font>
 
 Le contenu est centré sur la page est occupe 90% de la largeur disponible, la barre de navigation est sur le coté est apparait au survol de la zone.
 
 Pour la version mobile, la barre de navigation est en dessous du titre, avec un élément par ligne. Le contenu occupe la totalité de l'écran est utilisé.
+
+<div style="page-break-after: always;"></div>
 
 ## III. Equipe
 
@@ -78,9 +78,8 @@ Chacun développe son style pour sa page après avoir défini des règles commun
 
 La page d'accueil à été créée de façon commune, les points délicats on étés abordés par les membres les plus expérimentés, les points plus "simples" on été fait par les membres un peu moins expérimentés.
 
-![Organigramme](/res/orga.png)
-
-<!--TODO: Organigramme-->
+![Organigramme](https://rawcdn.githack.com/oxypomme/PT19_20/55a64ce3e01246102ba0adca0ad5c32e34fb3ce8/res/orga.png)<br/>
+<font size="2">*Organigramme de l'équipe*</font>
 
 ### b. Organisation
 
@@ -115,7 +114,3 @@ Nous avons aussi tout de suite défini quels styles de musique chacun allait abo
 ```
 
 <!--TODO: MAJ Structure-->
-
-### b. Sources
-
-DES SOURCES !

@@ -13,8 +13,9 @@
     --fontTitle: black;
     --Hue: 176;
     --main_color: hsl(var(--Hue), 80%, 45%);
-    --accent_color_light: hsl(var(--Hue), 100%, 30%);
+    --accent_color_light: hsl(var(--Hue), 100%, 80%);
     --accent_color_medium: hsl(var(--Hue), 80%, 45%);
+    --accent_color_medium_0: hsla(var(--Hue), 80%, 45%, 1%);
     --accent_color_dark: hsl(var(--Hue), 60%, 30%);
 }
 
@@ -54,6 +55,11 @@ a:hover {
     height: 2.5em;
 }
 
+.header-nav a:hover img {
+    /* https://codepen.io/sosuke/pen/Pjoqqp */
+    filter: invert(75%) sepia(100%) saturate(357%) hue-rotate(108deg) brightness(93%) contrast(93%);
+}
+
 .nav-text {
     padding: .5em 0 .5em 0;
 }
@@ -62,12 +68,14 @@ a:hover {
     background-color: var(--bg);
     border-top-left-radius: .5em;
     border-bottom-left-radius: .5em;
-    color: var(--accent_color_light);
+    color: var(--accent_color_medium);
     box-shadow: 0 0 .25em var(--accent_color_medium);
 }
-.header-nav{
+
+.header-nav {
     transform: translate(0, 5em);
 }
+
 .header-nav>ul {
     margin-top: 0;
     padding: 0;
@@ -117,6 +125,7 @@ header {
     margin: 0 auto;
     width: 100vw;
     font-weight: 100;
+    backdrop-filter: blur(2px);
 }
 
 h1 {
@@ -130,7 +139,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+.header-nav * {
     font-weight: 100;
 }
 
@@ -143,7 +153,7 @@ h1 {
     padding-top: 10px;
 }
 
-aside {
+aside.navbar {
     position: fixed;
     top: 0;
     height: 100vh;
@@ -165,12 +175,20 @@ iframe {
 .navbar:hover iframe {
     display: inline-block;
 }
-.navbar:hover img{
-    visibility: hidden;
+
+.navbar:hover img {
+    display: none;
 }
-.navbar img{
+
+.navbar-line {
     height: 100%;
+    width: 10px;
 }
+
+.navbar-arrow {
+    transform: translate(-10px, calc(-50vh - 10px));
+}
+
 main {
     background-color: var(--bg);
     display: block;
@@ -206,7 +224,26 @@ footer {
     width: 100%;
 }
 
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 8px;
+}
 
+::-webkit-scrollbar-track {
+    background: lightgrey;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border: solid 1px grey;
+    border-radius: 4px;
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 50%);
+}
+::-webkit-scrollbar-thumb:active {
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 50%);
+
+}
 
 /* ANIMATIONS */
 @keyframes slideInLeft {
@@ -241,10 +278,39 @@ footer {
     }
 }
 
+@keyframes backgroundFadeIn {
+    0% {
+        background-color: var(--accent_color_medium_0);
+    }
+
+    100% {
+        background-color: var(--bg);
+    }
+}
+
+@keyframes backgroundFadeOut {
+    0% {
+        background-color: var(--bg);
+    }
+
+    100% {
+        background-color: var(--accent_color_medium_0);
+    }
+
+}
+
 .navbar iframe {
     animation: slideOutLeft 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
 }
 
 .navbar:hover iframe {
     animation: slideInLeft 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+.header-nav a:hover {
+    animation: backgroundFadeIn .5s;
+}
+
+.header-nav a {
+    animation: backgroundFadeOut .25s;
 }

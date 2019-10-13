@@ -2,7 +2,7 @@
 
 <!--TODO: Nom du site-->
 
-> La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes fans de musique.
+> La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes passionés de musique.
 
 - [NomDuSite](#nomdusite)
   - [I. L'idée du site](#i-lid%c3%a9e-du-site)
@@ -25,7 +25,7 @@
 
 ### a. Le contenu
 
-Nous n'allons pas présenter d'époque, de période, particulière mais plus faire une histoire générale de la musique, montrer comment la musique influence nos vies au quotidien et faire la présentation de différents style : Rock, metal, électro et pop.
+Nous n'allons pas présenter d'époques ni de périodes particulières mais plus faire une histoire générale de la musique, montrer comment la musique influence nos vies au quotidien et faire la présentation de différents style : Rock, metal, électro, alternative, pop et rap.
 
 Pour ce faire, nous imaginons un site avec un style moderne, avec des vidéos, des liens vers sites d'actualité musicales et des liens vers des applis musique.
 
@@ -46,11 +46,11 @@ Principales couleurs de la page :
 
 ![Couleurs](res/palette.png)
 
-Nous avons choisi de faire un thème lumineux pour une meilleure intégration du contenu. Le fond sera donc d'une couleur claire (blanche) avec un motif discret  pour éviter un fond ennuyant.
+Nous avons choisi de faire un thème lumineux pour une meilleure intégration du contenu. Le fond sera donc d'une couleur claire (blanche) avec un motif discret pour éviter un fond ennuyant.
 
 <div style="page-break-after: always;"></div>
 
-Le fond de la navigation sera distingué du reste de la page grâce à une image floutée.
+Le fond de la navigation sera distingué du reste de la page grâce à une image floutée, en fonction du style de musique.
 
 Les couleurs choisies sont en accord avec le fond, le texte est avec un contraste suffisamment élevé pour rester lisible.
 
@@ -107,8 +107,11 @@ Nous avons aussi tout de suite défini quels styles de musique chacun allait abo
 |     metal.html
 |     pop.html
 |     rock.html
+|     rap.html
+|    alternative.html
 \--res
         head_back.mp4
+        autres images
 ```
 
 <!--TODO: MAJ Structure-->

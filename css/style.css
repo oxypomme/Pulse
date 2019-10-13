@@ -47,7 +47,14 @@ a:hover {
     font-weight: normal;
     display: block;
 }
-
+.header-nav a>*{
+    display: inline-block;
+    vertical-align: top;
+    height: 2.5em;
+}
+.nav-text{
+    padding: .5em 0 .5em 0;
+}
 .header-nav a:hover {
     background-color: var(--bg);
     border-radius: .5em;
@@ -69,7 +76,6 @@ a:hover {
     padding-left: .5em;
     vertical-align: middle;
 }
-
 .header-nav img {
     height: 2.5em;
 }
@@ -114,7 +120,8 @@ h1 {
     font-weight: inherit;
 }
 
-h2, h3{
+h2,
+h3 {
     font-weight: 100;
 }
 

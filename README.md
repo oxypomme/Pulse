@@ -60,7 +60,7 @@ Nous avons choisit une police d'écriture légère et fine (Roboto avec un poids
 
 ### c. Structure des pages
 
-![StructurePage](/res/structurePage.jpg)
+![StructurePage](/res/structure.jpg)
 
 <!--TODO: Structure page-->
 
@@ -78,7 +78,7 @@ Chacun développe son style pour sa page après avoir défini des règles commun
 
 La page d'accueil à été créée de façon commune, les points délicats on étés abordés par les membres les plus expérimentés, les points plus "simples" on été fait par les membres un peu moins expérimentés.
 
-![Organigramme](/res/orga.jpg)
+![Organigramme](/res/orga.png)
 
 <!--TODO: Organigramme-->
 

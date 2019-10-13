@@ -122,6 +122,7 @@ header {
     top: 0;
     z-index: 2;
     box-shadow: 0 .3em .3em rgba(0, 0, 0, 25%);
+    backdrop-filter: blur(2px);
 }
 
 .title {
@@ -129,7 +130,6 @@ header {
     margin: 0 auto;
     width: 100vw;
     font-weight: 100;
-    backdrop-filter: blur(2px);
 }
 
 h1 {

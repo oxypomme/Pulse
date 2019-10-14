@@ -52,7 +52,13 @@ a:hover {
     font-weight: normal;
     display: block;
 }
-
+.logo-title
+{
+    margin: 2em auto 2px auto;
+}
+.logo-title+hr{
+    border-top: solid 1px var(--accent_color_medium);
+}
 .header-nav a>* {
     display: inline-block;
     vertical-align: top;
@@ -77,7 +83,7 @@ a:hover {
 }
 
 .header-nav {
-    transform: translate(0, 5em);
+    transform: translate(0, 2em);
 }
 
 .header-nav>ul {
@@ -118,7 +124,9 @@ a:hover {
 header {
     background-color: var(--bg_header);
     position: sticky;
-    height: 100px;
+    min-height: 100px;
+    padding-bottom: 10px;
+    padding-top: 1px;
     top: 0;
     z-index: 2;
     box-shadow: 0 .3em .3em rgba(0, 0, 0, 25%);
@@ -130,6 +138,11 @@ header {
     margin: 0 auto;
     width: 100vw;
     font-weight: 100;
+}
+
+.title .logo50,
+.title .logo80 {
+    margin: 0 auto;
 }
 
 h1 {
@@ -228,6 +241,28 @@ footer {
     width: 100%;
 }
 
+.logo50:hover {
+    background-position: 100px;
+}
+
+.logo50 {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: url("../images/logo50.png") left center;
+}
+
+.logo80:hover {
+    background-position: 160px;
+}
+
+.logo80 {
+    display: block;
+    width: 160px;
+    height: 80px;
+    background: url("../images/logo80.png") left center;
+}
+
 /* SCROLLBAR */
 ::-webkit-scrollbar {
     width: 8px;
@@ -304,6 +339,26 @@ footer {
 
 }
 
+@keyframes anim-logo50 {
+    100% {
+        background-position: calc(100px * -30);
+    }
+
+    0% {
+        background-position: calc(100px * 0);
+    }
+}
+
+@keyframes anim-logo80 {
+    100% {
+        background-position: calc(160px * -30);
+    }
+
+    0% {
+        background-position: calc(160px * 0);
+    }
+}
+
 .navbar iframe {
     animation: slideOutLeft 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
 }
@@ -318,4 +373,12 @@ footer {
 
 .header-nav a {
     animation: backgroundFadeOut .25s;
+}
+
+.logo50:hover {
+    animation: anim-logo50 0.5s steps(30);
+}
+
+.logo80:hover {
+    animation: anim-logo80 0.5s steps(30);
 }

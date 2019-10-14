@@ -52,13 +52,15 @@ a:hover {
     font-weight: normal;
     display: block;
 }
-.logo-title
-{
+
+.logo-title {
     margin: 2em auto 2px auto;
 }
-.logo-title+hr{
+
+.logo-title+hr {
     border-top: solid 1px var(--accent_color_medium);
 }
+
 .header-nav a>* {
     display: inline-block;
     vertical-align: top;
@@ -182,6 +184,22 @@ iframe {
     overflow: hidden;
     width: 20vw;
     height: 100%;
+}
+
+.navbar iframe {
+    animation: slideOutLeft 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
+}
+
+.navbar:hover iframe {
+    animation: slideInLeft 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+.header-nav a:hover {
+    animation: backgroundFadeIn .5s;
+}
+
+.header-nav a {
+    animation: backgroundFadeOut .25s;
 }
 
 .navbar iframe {

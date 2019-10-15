@@ -214,13 +214,6 @@ iframe {
     height: 100%;
 }
 
-.navbar iframe {
-    animation: slideOutLeft 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
-}
-
-.navbar:hover iframe {
-    animation: slideInLeft 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-}
 
 .header-nav a:hover {
     animation: backgroundFadeIn .5s;
@@ -233,10 +226,12 @@ iframe {
 .navbar iframe {
     display: none;
     box-shadow: 0 0 .5em rgba(0, 0, 0, 50%);
+    animation: slideOutLeft 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
 }
 
 .navbar:hover iframe {
     display: inline-block;
+    animation: slideInLeft 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 
 .navbar:hover img {

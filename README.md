@@ -1,10 +1,8 @@
-# NameSite
-
-<!--TODO: Nom du site-->
+# Pulse
 
 > La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes passionnés de musique.
 
-- [NomDuSite](#nomdusite)
+- [Pulse](#pulse)
   - [I. L'idée du site](#i-lid%c3%a9e-du-site)
     - [a. Le contenu](#a-le-contenu)
     - [b. Le public](#b-le-public)
@@ -17,6 +15,7 @@
     - [b. Organisation](#b-organisation)
   - [IV. Annexes](#iv-annexes)
     - [a. Structure](#a-structure)
+    - [b. Exemple de page](#b-exemple-de-page)
 
 <div style="page-break-after: always;"></div>
 
@@ -114,5 +113,10 @@ Nous avons aussi tout de suite défini quels styles de musique chacun allait abo
         ligne.png
         autres images
 ```
+
+### b. Exemple de page
+
+![Exemple](https://i.imgur.com/3WlKemN.png)
+<font size="2">*Exemple de page*</font>
 
 <!--TODO: MAJ Structure-->

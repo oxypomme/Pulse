@@ -77,7 +77,6 @@ a:hover {
 
 .header-nav a:hover,
 .header-nav .dropdown-title:hover {
-    background-color: var(--bg);
     border-top-left-radius: .5em;
     border-bottom-left-radius: .5em;
     color: var(--accent_color_medium);
@@ -337,27 +336,6 @@ footer {
     }
 }
 
-@keyframes backgroundFadeIn {
-    0% {
-        background-color: var(--accent_color_medium_0);
-    }
-
-    100% {
-        background-color: var(--bg);
-    }
-}
-
-@keyframes backgroundFadeOut {
-    0% {
-        background-color: var(--bg);
-    }
-
-    100% {
-        background-color: var(--accent_color_medium_0);
-    }
-
-}
-
 @keyframes anim-logo50 {
     100% {
         background-position: calc(100px * -30);
@@ -384,14 +362,6 @@ footer {
 
 .navbar:hover iframe {
     animation: slideInLeft 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-}
-
-.header-nav a:hover {
-    animation: backgroundFadeIn .5s;
-}
-
-.header-nav a {
-    animation: backgroundFadeOut .25s;
 }
 
 .logo50:hover {

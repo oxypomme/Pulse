@@ -12,7 +12,6 @@ html {
 :root {
     --bg: white;
     --bg_header: rgba(255, 255, 255, 0.9);
-    --bg_dark: rgb(230, 230, 230);
     --fontBase: black;
     --fontTitle: black;
     --Hue: 176;
@@ -43,7 +42,7 @@ a:hover {
 }
 
 .header {
-    background-color: var(--bg_dark);
+    background-color: var(--bg_header);
 }
 
 .header-nav a {
@@ -76,7 +75,8 @@ a:hover {
     padding: .5em 0 .5em 0;
 }
 
-.header-nav a:hover {
+.header-nav a:hover,
+.header-nav .dropdown-title:hover {
     background-color: var(--bg);
     border-top-left-radius: .5em;
     border-bottom-left-radius: .5em;
@@ -108,6 +108,12 @@ a:hover {
     height: 2.5em;
 }
 
+.header-nav .dropdown-title{
+    display: block;
+    transform: translate(37px);
+    padding: 8px;
+}
+
 .head-img {
     z-index: 0;
 }
@@ -133,6 +139,28 @@ header {
     z-index: 2;
     box-shadow: 0 .3em .3em rgba(0, 0, 0, 25%);
     backdrop-filter: blur(2px);
+}
+
+.logo50:hover {
+    background-position: 100px;
+}
+
+.logo50 {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: url("../images/logo50.png") left center;
+}
+
+.logo80:hover {
+    background-position: 160px;
+}
+
+.logo80 {
+    display: block;
+    width: 160px;
+    height: 80px;
+    background: url("../images/logo80.png") left center;
 }
 
 .title {
@@ -257,28 +285,6 @@ p {
 footer {
     height: 12.5vh;
     width: 100%;
-}
-
-.logo50:hover {
-    background-position: 100px;
-}
-
-.logo50 {
-    display: block;
-    width: 100px;
-    height: 50px;
-    background: url("../images/logo50.png") left center;
-}
-
-.logo80:hover {
-    background-position: 160px;
-}
-
-.logo80 {
-    display: block;
-    width: 160px;
-    height: 80px;
-    background: url("../images/logo80.png") left center;
 }
 
 /* SCROLLBAR */

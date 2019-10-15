@@ -118,7 +118,5 @@ Nous avons aussi tout de suite défini quels styles de musique chacun allait abo
 
 ### b. Exemple de page
 
-![Exemple](https://i.imgur.com/3WlKemN.png)
+![Exemple](https://i.imgur.com/36wGt9t.png)
 <font size="2">*Exemple de page*</font>
-
-<!--TODO: MAJ Structure-->

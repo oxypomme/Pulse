@@ -249,7 +249,7 @@ iframe {
 }
 
 .navbar-arrow {
-    transform: translate(-10px, calc(-50vh - 10px));
+    transform: translate(-11px, calc(-50vh - 10px));
 }
 
 main {

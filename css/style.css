@@ -58,6 +58,7 @@ a:hover {
 
 .logo-title+hr {
     border-top: solid 1px var(--accent_color_medium);
+    margin: 0 10vw;
 }
 
 .header-nav a>* {
@@ -77,7 +78,6 @@ a:hover {
 
 .header-nav a:hover,
 .header-nav .dropdown-title:hover {
-    background-color: var(--bg);
     border-top-left-radius: .5em;
     border-bottom-left-radius: .5em;
     color: var(--accent_color_medium);
@@ -214,13 +214,6 @@ iframe {
     height: 100%;
 }
 
-.navbar iframe {
-    animation: slideOutLeft 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
-}
-
-.navbar:hover iframe {
-    animation: slideInLeft 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-}
 
 .header-nav a:hover {
     animation: backgroundFadeIn .5s;
@@ -233,10 +226,12 @@ iframe {
 .navbar iframe {
     display: none;
     box-shadow: 0 0 .5em rgba(0, 0, 0, 50%);
+    animation: slideOutLeft 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
 }
 
 .navbar:hover iframe {
     display: inline-block;
+    animation: slideInLeft 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 
 .navbar:hover img {
@@ -342,27 +337,6 @@ footer {
     }
 }
 
-@keyframes backgroundFadeIn {
-    0% {
-        background-color: var(--accent_color_medium_0);
-    }
-
-    100% {
-        background-color: var(--bg);
-    }
-}
-
-@keyframes backgroundFadeOut {
-    0% {
-        background-color: var(--bg);
-    }
-
-    100% {
-        background-color: var(--accent_color_medium_0);
-    }
-
-}
-
 @keyframes anim-logo50 {
     100% {
         background-position: calc(100px * -30);
@@ -389,14 +363,6 @@ footer {
 
 .navbar:hover iframe {
     animation: slideInLeft 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-}
-
-.header-nav a:hover {
-    animation: backgroundFadeIn .5s;
-}
-
-.header-nav a {
-    animation: backgroundFadeOut .25s;
 }
 
 .logo50:hover {

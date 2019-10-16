@@ -41,7 +41,7 @@ Le public visé par notre site sont les adolescents, les adultes et les seniors.
 
 Nous avons choisi ces principales couleurs :
 
-![Couleurs](https://github.com/oxypomme/PT19_20/blob/master/res/palette.png?raw=true)
+![Couleurs](https://raw.githubusercontent.com/oxypomme/PT19_20/master/res/palette.png)
 
 Nous avons choisi de faire un thème lumineux pour une meilleure intégration du contenu. Le fond sera donc d'une couleur claire (blanche) avec un motif discret pour éviter un fond ennuyant.
 
@@ -57,7 +57,7 @@ Nous avons choisit une police d'écriture légère et fine (Roboto avec un poids
 
 ### c. Structure des pages
 
-![StructurePage](https://github.com/oxypomme/PT19_20/blob/master/res/structure.jpg?raw=true)<br/>
+![StructurePage](https://raw.githubusercontent.com/oxypomme/PT19_20/master/res/structure.jpg)<br/>
 <font size="2">*Structure d'une page*</font>
 
 Le contenu est centré sur la page est occupe 90% de la largeur disponible, la barre de navigation est sur le coté est apparait au survol de la zone.
@@ -76,7 +76,7 @@ Chacun développe son style pour sa page après avoir défini des règles commun
 
 La page d'accueil à été créée de façon commune, les points délicats on étés abordés par les membres les plus expérimentés, les points plus "simples" on été fait par les membres un peu moins expérimentés.
 
-![Organigramme](https://github.com/oxypomme/PT19_20/blob/master/res/orga.png?raw=true)<br/>
+![Organigramme](https://raw.githubusercontent.com/oxypomme/PT19_20/master/res/orga.png)<br/>
 <font size="2">*Organigramme de l'équipe*</font>
 
 ### b. Organisation
@@ -95,7 +95,6 @@ Nous avons aussi tout de suite défini quels styles de musique chacun allait abo
 |   footer.html
 |   index.html
 |   nav.html
-|
 |--css
 |     mobile.css
 |     style.css
@@ -105,14 +104,17 @@ Nous avons aussi tout de suite défini quels styles de musique chacun allait abo
 |     pop.html
 |     rock.html
 |     rap.html
-|    alternative.html
+|     alternative.html
 \--images
-        background.svg
-        fleche.png
-        ligne.png
-        logo50.png
-        logo80.png
-        pageIcon.png
+   |    background.svg
+   |    fleche.png
+   |    ligne.png
+   |    logo.png
+   |    pageIcon.png
+   |    ... et autres images
+   \--musicBackgrounds
+          metal.jpg
+          ... et autres fond pour les pages de musique
 ```
 
 ### b. Exemple de page

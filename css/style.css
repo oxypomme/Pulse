@@ -30,6 +30,8 @@ body {
     background-color: var(--bg);
     color: var(--fontBase);
     overflow-x: hidden;
+    background-attachment: fixed;
+    background-size: contain;
 }
 
 a {
@@ -83,6 +85,9 @@ a:hover {
     color: var(--accent_color_medium);
     box-shadow: 0 0 .25em var(--accent_color_medium);
 }
+main ul{
+    list-style: circle;
+}
 .header-nav {
     transform: translate(0, 2em);
 }
@@ -107,7 +112,7 @@ a:hover {
     height: 2.5em;
 }
 
-.header-nav .dropdown-title{
+.header-nav .dropdown-title {
     display: block;
     transform: translate(37px);
     padding: 8px;
@@ -256,12 +261,32 @@ main {
     padding: 1.5em;
 }
 
+.metal-bg {
+    background-image: url("../images/musicBackgrounds/metal.jpg");
+}
+
 section {
     border-top: 1px solid var(--main_color);
 }
 
 .float-right {
     float: right;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+figure * {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.yt-integration {
+    width: 500px;
+    height: 300px;
+    border-radius: 1em;
 }
 
 .float-left {

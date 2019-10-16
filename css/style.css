@@ -82,7 +82,6 @@ a:hover {
     color: var(--accent_color_medium);
     box-shadow: 0 0 .25em var(--accent_color_medium);
 }
-
 .header-nav {
     transform: translate(0, 2em);
 }
@@ -111,6 +110,7 @@ a:hover {
     display: block;
     transform: translate(37px);
     padding: 8px;
+    border-top: 1px solid var(--accent_color_medium);
 }
 
 .head-img {

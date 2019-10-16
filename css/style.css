@@ -247,7 +247,7 @@ iframe {
 }
 
 main {
-    background-color: var(--bg);
+    background-color: var(--bg80);
     display: block;
     margin: 0 auto;
     margin-top: 50vh;

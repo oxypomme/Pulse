@@ -253,6 +253,7 @@ main {
     margin-top: 50vh;
     width: 83vw;
     z-index: 1;
+    padding: 1.5em;;
 }
 
 section {
@@ -278,7 +279,7 @@ p {
 
 footer {
     height: 12.5vh;
-    width: 100%;
+    width: 100vw;
 }
 
 /* SCROLLBAR */

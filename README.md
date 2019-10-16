@@ -1,5 +1,7 @@
 # Pulse
 
+![Logo](https://raw.githubusercontent.com/oxypomme/PT19_20/master/res/seq%20icon/80p/pulse_00000.png)
+
 > La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes passionnés de musique.
 
 - [Pulse](#pulse)

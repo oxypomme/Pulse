@@ -11,6 +11,7 @@ html {
 
 :root {
     --bg: white;
+    --bg80: rgba(255, 255, 255, 80%);
     --bg_header: rgba(255, 255, 255, 0.9);
     --fontBase: black;
     --fontTitle: black;

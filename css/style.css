@@ -58,7 +58,6 @@ a:hover {
 
 .logo-title+hr {
     border-top: solid 1px var(--accent_color_medium);
-    margin: 0 10vw;
 }
 
 .header-nav a>* {

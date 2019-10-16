@@ -1,23 +1,20 @@
-# Pulse
-
 ![Logo](https://raw.githubusercontent.com/oxypomme/PT19_20/master/res/seq%20icon/80p/pulse_00000.png)
 
 > La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes passionnés de musique.
 
-- [Pulse](#pulse)
-  - [I. L'idée du site](#i-lid%c3%a9e-du-site)
-    - [a. Le contenu](#a-le-contenu)
-    - [b. Le public](#b-le-public)
-  - [II. Charte Graphique](#ii-charte-graphique)
-    - [a. Choix des couleurs](#a-choix-des-couleurs)
-    - [b. Choix des polices d'écritures](#b-choix-des-polices-d%c3%a9critures)
-    - [c. Structure des pages](#c-structure-des-pages)
-  - [III. Equipe](#iii-equipe)
-    - [a. Répartition des tâches](#a-r%c3%a9partition-des-t%c3%a2ches)
-    - [b. Organisation](#b-organisation)
-  - [IV. Annexes](#iv-annexes)
-    - [a. Structure](#a-structure)
-    - [b. Exemple de page](#b-exemple-de-page)
+- [I. L'idée du site](#i-lid%c3%a9e-du-site)
+  - [a. Le contenu](#a-le-contenu)
+  - [b. Le public](#b-le-public)
+- [II. Charte Graphique](#ii-charte-graphique)
+  - [a. Choix des couleurs](#a-choix-des-couleurs)
+  - [b. Choix des polices d'écritures](#b-choix-des-polices-d%c3%a9critures)
+  - [c. Structure des pages](#c-structure-des-pages)
+- [III. Equipe](#iii-equipe)
+  - [a. Répartition des tâches](#a-r%c3%a9partition-des-t%c3%a2ches)
+  - [b. Organisation](#b-organisation)
+- [IV. Annexes](#iv-annexes)
+  - [a. Structure](#a-structure)
+  - [b. Exemple de page](#b-exemple-de-page)
 
 <div style="page-break-after: always;"></div>
 

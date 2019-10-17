@@ -181,16 +181,6 @@ header {
     margin: 0 auto;
 }
 
-h1 {
-    border-bottom: 1px solid var(--main_color);
-    width: 50vw;
-    display: block;
-    margin: 10px auto 5px auto;
-    padding-bottom: 5px;
-    color: var(--fontTitle);
-    font-weight: inherit;
-}
-
 h2,
 h3,
 .header-nav * {
@@ -335,6 +325,31 @@ footer {
 ::-webkit-scrollbar-thumb:active {
     box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 50%);
 
+}
+
+.source {
+    float: right;
+    font-style: italic;
+    margin-top: -20px;
+    color: var(--accent_color_dark);
+}
+
+.button {
+    padding: 5px;
+    margin-left: 2em;
+    border: 1px solid var(--accent_color_dark);
+    border-radius: 10px;
+    background-color: var(--accent_color_medium);
+    font-size: 0.75em;
+}
+
+.button:hover {
+    border-color: var(--accent_color_medium);
+    background-color: var(--accent_color_light);
+}
+
+.button:hover a {
+    color: var(--accent_color_medium);
 }
 
 /* ANIMATIONS */

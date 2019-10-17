@@ -114,16 +114,18 @@ Nous avons aussi tout de suite défini quels styles de musique chacun allait abo
 |   index.html
 |   nav.html
 |   histoire.html
-|   electro.html
-|   metal.html
-|   pop.html
-|   rock.html
-|   rap.html
-|   alternative.html
 |
 |--css
 |     mobile.css
 |     style.css
+|
+|--music
+|     electro.html
+|     metal.html
+|     pop.html
+|     rock.html
+|     rap.html
+|     alternative.html
 |
 \--images
    |    background.svg

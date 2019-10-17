@@ -122,9 +122,12 @@ main ul {
 
 .header-nav .dropdown-title {
     display: block;
-    transform: translate(37px);
     padding: 8px;
+}
+
+.header-nav .separator{
     border-top: 1px solid var(--accent_color_medium);
+    margin: 5px;
 }
 
 .head-img {
@@ -369,6 +372,7 @@ footer iframe {
 
 figure {
     margin: 20px;
+    margin-top: 10px;
     padding: 5px 0px;
     font-weight: 100;
     border-bottom: 1px solid;

@@ -13,7 +13,7 @@ html {
 :root {
     --bg: white;
     --bg80: rgba(255, 255, 255, 80%);
-    --bg_header: rgba(255, 255, 255, 0.9);
+    --bg_header: rgba(255, 255, 255, 80%);
     --fontBase: black;
     --fontTitle: black;
     --Hue: 176;
@@ -31,7 +31,8 @@ body {
     background-color: var(--bg);
     color: var(--fontBase);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
 
 a {
@@ -72,6 +73,11 @@ a:hover {
 .header-nav a:hover img {
     /* https://codepen.io/sosuke/pen/Pjoqqp */
     filter: invert(75%) sepia(100%) saturate(357%) hue-rotate(108deg) brightness(93%) contrast(93%);
+}
+
+.header-nav a img {
+    height: 1.25em;
+    transform: translate(0, 50%);
 }
 
 .nav-text {
@@ -143,7 +149,7 @@ header {
     padding-bottom: 10px;
     padding-top: 1px;
     top: 0;
-    z-index: 2;
+    z-index: 3;
     box-shadow: 0 .3em .3em rgba(0, 0, 0, 25%);
 }
 
@@ -181,29 +187,21 @@ header {
     margin: 0 auto;
 }
 
-h1 {
-    border-bottom: 1px solid var(--main_color);
-    width: 50vw;
-    display: block;
-    margin: 10px auto 5px auto;
-    padding-bottom: 5px;
-    color: var(--fontTitle);
-    font-weight: inherit;
-}
-
 h2,
 h3,
 .header-nav * {
     font-weight: 100;
 }
 
-.subtitle,
-h1 {
-    text-align: center;
-}
-
 .subtitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid var(--main_color);
     padding-top: 10px;
+    width: 50vw;
 }
 
 aside.navbar {
@@ -213,11 +211,14 @@ aside.navbar {
     z-index: 10;
 }
 
-iframe {
+aside.navbar iframe {
     border: 0;
     overflow: hidden;
     width: 20vw;
     height: 100%;
+    display: none;
+    box-shadow: 0 0 .5em rgba(0, 0, 0, 50%);
+    animation: slideOutLeft 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
 }
 
 
@@ -227,12 +228,6 @@ iframe {
 
 .header-nav a {
     animation: backgroundFadeOut .25s;
-}
-
-.navbar iframe {
-    display: none;
-    box-shadow: 0 0 .5em rgba(0, 0, 0, 50%);
-    animation: slideOutLeft 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
 }
 
 .navbar:hover iframe {
@@ -256,7 +251,7 @@ iframe {
 main {
     background-color: var(--bg80);
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
     width: 83vw;
     z-index: 1;
     padding: 1.5em;
@@ -269,6 +264,10 @@ main {
 section {
     margin-top: 40px;
     border-top: 1px solid var(--main_color);
+}
+
+.no-top-separator {
+    border-top: none;
 }
 
 .float-right {
@@ -295,6 +294,10 @@ figure * {
     float: left;
 }
 
+.float-right {
+    float: right;
+}
+
 article {
     padding: 0px 10px;
 }
@@ -302,12 +305,20 @@ article {
 p {
     text-align: justify;
     text-indent: 2em;
+    margin: auto auto 16px auto;
 }
 
 footer {
     height: 12.5vh;
     width: 100vw;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    opacity: .8;
+}
+
+footer iframe {
+    border: 0;
+    width: 100vw;
 }
 
 ::-webkit-scrollbar {
@@ -329,6 +340,48 @@ footer {
 ::-webkit-scrollbar-thumb:active {
     box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 50%);
 
+}
+
+.source {
+    float: right;
+    font-style: italic;
+    margin-top: -20px;
+    color: var(--accent_color_dark);
+}
+
+.button {
+    padding: 5px;
+    margin-left: 2em;
+    border: 1px solid var(--accent_color_dark);
+    border-radius: 10px;
+    background-color: var(--accent_color_medium);
+    font-size: 0.75em;
+}
+
+.button:hover {
+    border-color: var(--accent_color_medium);
+    background-color: var(--accent_color_light);
+}
+
+.button:hover a {
+    color: var(--accent_color_medium);
+}
+
+figure {
+    margin: 20px;
+    padding: 5px 0px;
+    font-weight: 100;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: var(--main_color);
+}
+
+.little-text{
+    font-size: 0.8em;
+}
+
+figcaption .little-text{
+    max-width: 200px;
 }
 
 /* ANIMATIONS */

@@ -145,7 +145,6 @@ header {
     top: 0;
     z-index: 2;
     box-shadow: 0 .3em .3em rgba(0, 0, 0, 25%);
-    backdrop-filter: blur(2px);
 }
 
 .logo50:hover {
@@ -311,7 +310,6 @@ footer {
     overflow: hidden;
 }
 
-/* SCROLLBAR */
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -338,14 +336,12 @@ footer {
     0% {
         transform: translateX(-100%) scaleX(1) scaleY(1);
         transform-origin: 100% 50%;
-        filter: blur(40px);
         opacity: 0;
     }
 
     100% {
         transform: translateX(0) scaleY(1) scaleX(1);
         transform-origin: 50% 50%;
-        filter: blur(0);
         opacity: .9;
     }
 }
@@ -354,14 +350,12 @@ footer {
     0% {
         transform: translateX(0) scaleY(1) scaleX(1);
         transform-origin: 50% 50%;
-        filter: blur(0);
         opacity: .9;
     }
 
     100% {
         transform: translateX(-1000px) scaleX(2) scaleY(0.2);
         transform-origin: 100% 50%;
-        filter: blur(40px);
         opacity: 0;
     }
 }

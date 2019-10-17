@@ -96,3 +96,26 @@ footer {
 footer iframe {
     border: 0;
 }
+
+article {
+    padding: 0px 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+}
+figcaption {
+    font-style: italic;
+}
+
+figure * {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.yt-integration {
+    width: 25em;
+    height: 15em;
+    border-radius: 1em;
+}

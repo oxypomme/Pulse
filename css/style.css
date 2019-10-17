@@ -7,6 +7,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 :root {
@@ -29,7 +30,6 @@ body {
     padding: 0;
     background-color: var(--bg);
     color: var(--fontBase);
-    overflow-x: hidden;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -132,7 +132,7 @@ main ul {
 }
 
 .blank-div {
-    height: 50vh;
+    height: calc(45vh - 50px);
 }
 
 .head-img img {
@@ -187,29 +187,21 @@ header {
     margin: 0 auto;
 }
 
-h1 {
-    border-bottom: 1px solid var(--main_color);
-    width: 50vw;
-    display: block;
-    margin: 10px auto 5px auto;
-    padding-bottom: 5px;
-    color: var(--fontTitle);
-    font-weight: inherit;
-}
-
 h2,
 h3,
 .header-nav * {
     font-weight: 100;
 }
 
-.subtitle,
-h1 {
-    text-align: center;
-}
-
 .subtitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid var(--main_color);
     padding-top: 10px;
+    width: 50vw;
 }
 
 aside.navbar {
@@ -270,7 +262,12 @@ main {
 }
 
 section {
+    margin-top: 40px;
     border-top: 1px solid var(--main_color);
+}
+
+.no-top-separator {
+    border-top: none;
 }
 
 .float-right {
@@ -297,6 +294,10 @@ figure * {
     float: left;
 }
 
+.float-right {
+    float: right;
+}
+
 article {
     padding: 0px 10px;
 }
@@ -304,6 +305,7 @@ article {
 p {
     text-align: justify;
     text-indent: 2em;
+    margin: auto auto 16px auto;
 }
 
 footer {
@@ -338,6 +340,48 @@ footer iframe {
 ::-webkit-scrollbar-thumb:active {
     box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 50%);
 
+}
+
+.source {
+    float: right;
+    font-style: italic;
+    margin-top: -20px;
+    color: var(--accent_color_dark);
+}
+
+.button {
+    padding: 5px;
+    margin-left: 2em;
+    border: 1px solid var(--accent_color_dark);
+    border-radius: 10px;
+    background-color: var(--accent_color_medium);
+    font-size: 0.75em;
+}
+
+.button:hover {
+    border-color: var(--accent_color_medium);
+    background-color: var(--accent_color_light);
+}
+
+.button:hover a {
+    color: var(--accent_color_medium);
+}
+
+figure {
+    margin: 20px;
+    padding: 5px 0px;
+    font-weight: 100;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: var(--main_color);
+}
+
+.little-text{
+    font-size: 0.8em;
+}
+
+figcaption .little-text{
+    max-width: 200px;
 }
 
 /* ANIMATIONS */

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap');
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg: white;
+    --bg80: rgba(255, 255, 255, 80%);
+    --bg_header: rgba(255, 255, 255, 0.9);
+    --fontBase: black;
+    --fontTitle: black;
+    --Hue: 176;
+    --main_color: hsl(var(--Hue), 80%, 45%);
+    --accent_color_light: hsl(var(--Hue), 100%, 80%);
+    --accent_color_medium: hsl(var(--Hue), 80%, 45%);
+    --accent_color_medium_0: hsla(var(--Hue), 80%, 45%, 1%);
+    --accent_color_dark: hsl(var(--Hue), 60%, 30%);
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    background-color: var(--bg);
+    color: var(--fontBase);
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+a {
+    color: var(--accent_color_medium);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main ul {
+    list-style: circle;
+}
+
+.head-img {
+    display: none;
+}
+
+.blank-div {
+    display: none;
+}
+
+header {
+    display: none;
+}
+
+.title {
+    display: none;
+}
+
+aside.navbar img {
+    display: none;
+}
+
+aside.navbar iframe {
+    width: 100vw;
+    height: 30em;
+    border: 0;
+}
+
+main {
+    background-color: var(--bg80);
+    display: block;
+    margin: 0 auto;
+    width: 90vw;
+    z-index: 1;
+    padding: 1.5em;
+}
+
+h2,
+h3 {
+    font-weight: 100;
+}
+
+section {
+    border-top: 1px solid var(--main_color);
+}
+
+footer {
+    height: 12.5vh;
+    width: 100vw;
+}
+
+footer iframe {
+    border: 0;
+}

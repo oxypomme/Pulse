@@ -12,7 +12,7 @@ html {
 :root {
     --bg: white;
     --bg80: rgba(255, 255, 255, 80%);
-    --bg_header: rgba(255, 255, 255, 0.9);
+    --bg_header: rgba(255, 255, 255, 80%);
     --fontBase: black;
     --fontTitle: black;
     --Hue: 176;
@@ -74,6 +74,11 @@ a:hover {
     filter: invert(75%) sepia(100%) saturate(357%) hue-rotate(108deg) brightness(93%) contrast(93%);
 }
 
+.header-nav a img {
+    height: 1.25em;
+    transform: translate(0, 50%);
+}
+
 .nav-text {
     padding: .5em 0 .5em 0;
 }
@@ -85,9 +90,11 @@ a:hover {
     color: var(--accent_color_medium);
     box-shadow: 0 0 .25em var(--accent_color_medium);
 }
-main ul{
+
+main ul {
     list-style: circle;
 }
+
 .header-nav {
     transform: translate(0, 2em);
 }
@@ -141,7 +148,7 @@ header {
     padding-bottom: 10px;
     padding-top: 1px;
     top: 0;
-    z-index: 2;
+    z-index: 3;
     box-shadow: 0 .3em .3em rgba(0, 0, 0, 25%);
 }
 
@@ -211,11 +218,14 @@ aside.navbar {
     z-index: 10;
 }
 
-iframe {
+aside.navbar iframe {
     border: 0;
     overflow: hidden;
     width: 20vw;
     height: 100%;
+    display: none;
+    box-shadow: 0 0 .5em rgba(0, 0, 0, 50%);
+    animation: slideOutLeft 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
 }
 
 
@@ -225,12 +235,6 @@ iframe {
 
 .header-nav a {
     animation: backgroundFadeOut .25s;
-}
-
-.navbar iframe {
-    display: none;
-    box-shadow: 0 0 .5em rgba(0, 0, 0, 50%);
-    animation: slideOutLeft 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
 }
 
 .navbar:hover iframe {
@@ -304,6 +308,10 @@ p {
 footer {
     height: 12.5vh;
     width: 100vw;
+}
+
+footer iframe {
+    border: 0;
 }
 
 ::-webkit-scrollbar {

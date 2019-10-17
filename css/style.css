@@ -359,12 +359,19 @@ footer {
 
 figure {
     margin: 20px;
-    margin-top: -5%;
     padding: 5px 0px;
     font-weight: 100;
     border-bottom: 1px solid;
     border-top: 1px solid;
     border-color: var(--main_color);
+}
+
+.little-text{
+    font-size: 0.8em;
+}
+
+figcaption .little-text{
+    max-width: 200px;
 }
 
 /* ANIMATIONS */

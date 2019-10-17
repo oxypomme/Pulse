@@ -289,6 +289,9 @@ figure * {
 .float-left {
     float: left;
 }
+.float-right {
+    float: right;
+}
 
 article {
     padding: 0px 10px;
@@ -350,6 +353,16 @@ footer {
 
 .button:hover a {
     color: var(--accent_color_medium);
+}
+
+figure {
+    margin: 20px;
+    margin-top: -5%;
+    padding: 5px 0px;
+    font-weight: 100;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: var(--main_color);
 }
 
 /* ANIMATIONS */

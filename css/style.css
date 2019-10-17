@@ -257,7 +257,7 @@ main {
     background-color: var(--bg80);
     display: block;
     margin: 0 auto 2em auto;
-    width: 83vw;
+    width: 70vw;
     z-index: 1;
     padding: 1.5em;
 }

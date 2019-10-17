@@ -189,12 +189,10 @@ h3,
 
 .subtitle {
     text-align: center;
-}
-
-.subtitle {
     margin-top: 10px;
     border-top: 1px solid var(--main_color);
     padding-top: 10px;
+    width: 50vw;
 }
 
 aside.navbar {
@@ -289,6 +287,7 @@ figure * {
 .float-left {
     float: left;
 }
+
 .float-right {
     float: right;
 }

@@ -122,9 +122,12 @@ main ul {
 
 .header-nav .dropdown-title {
     display: block;
-    transform: translate(37px);
     padding: 8px;
+}
+
+.header-nav .separator{
     border-top: 1px solid var(--accent_color_medium);
+    margin: 5px;
 }
 
 .head-img {

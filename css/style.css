@@ -13,7 +13,7 @@ html {
 :root {
     --bg: white;
     --bg80: rgba(255, 255, 255, 80%);
-    --bg_header: rgba(255, 255, 255, 80%);
+    --bg_header: rgba(255, 255, 255, 90%);
     --fontBase: black;
     --fontTitle: black;
     --Hue: 176;

@@ -2,7 +2,7 @@
 
 Projet Tutoré A1 S1 2019 - Sujet 3
 
-Tom SUBLET - Gao CHANG - Nathan HANNEN - Maxime JOURDAN
+Chang GAO - Nathan HANEN - Maxime JOURNET - Tom SUBLET
 
 > La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes passionnés de musique.
 

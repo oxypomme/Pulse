@@ -130,7 +130,7 @@ main ul {
     margin: 5px;
 }
 
-.head-img {
+video.head-img {
     z-index: 0;
 }
 
@@ -138,11 +138,13 @@ main ul {
     height: calc(45vh - 50px);
 }
 
-.head-img img {
+video.head-img {
     width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
+    object-fit: cover;
+    object-position: center;
 }
 
 header {
@@ -321,6 +323,7 @@ footer {
 
 footer iframe {
     border: 0;
+    height: 12.5vh;
     width: 100vw;
 }
 

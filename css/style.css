@@ -7,6 +7,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 :root {
@@ -29,7 +30,6 @@ body {
     padding: 0;
     background-color: var(--bg);
     color: var(--fontBase);
-    overflow-x: hidden;
     background-attachment: fixed;
     background-size: contain;
 }
@@ -124,7 +124,7 @@ main ul{
 }
 
 .blank-div {
-    height: 50vh;
+    height: calc(45vh - 50px);
 }
 
 .head-img img {
@@ -266,6 +266,7 @@ main {
 }
 
 section {
+    margin-top: 40px;
     border-top: 1px solid var(--main_color);
 }
 
@@ -305,6 +306,7 @@ p {
 footer {
     height: 12.5vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 /* SCROLLBAR */

@@ -31,9 +31,13 @@ body {
     color: var(--fontBase);
     overflow-x: hidden;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
-
+.metal-bg {
+        background-image: url("../images/musicBackgrounds/mobile/metal.jpg");
+    
+}
 a {
     color: var(--accent_color_medium);
     text-decoration: none;

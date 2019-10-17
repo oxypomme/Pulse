@@ -31,7 +31,8 @@ body {
     color: var(--fontBase);
     overflow-x: hidden;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
 
 a {
@@ -258,7 +259,7 @@ aside.navbar iframe {
 main {
     background-color: var(--bg80);
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
     width: 83vw;
     z-index: 1;
     padding: 1.5em;
@@ -308,10 +309,14 @@ p {
 footer {
     height: 12.5vh;
     width: 100vw;
+    margin: 0;
+    padding: 0;
+    opacity: .8;
 }
 
 footer iframe {
     border: 0;
+    width: 100vw;
 }
 
 ::-webkit-scrollbar {

@@ -328,7 +328,9 @@ footer iframe {
     height: 12.5vh;
     width: 100vw;
 }
-
+.round{
+    border-radius: 100%;
+}
 ::-webkit-scrollbar {
     width: 8px;
 }

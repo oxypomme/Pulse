@@ -169,3 +169,6 @@ figure * {
     margin-top: -20px;
     color: var(--accent_color_dark);
 }
+.round{
+    border-radius: 100%;
+}

@@ -106,7 +106,7 @@ aside.navbar img {
 
 aside.navbar iframe {
     width: 100vw;
-    height: 35em;
+    height: 40em;
     border: 0;
 }
 
@@ -160,4 +160,10 @@ figure * {
     width: 25em;
     height: 15em;
     border-radius: 1em;
+}
+.source {
+    float: right;
+    font-style: italic;
+    margin-top: -20px;
+    color: var(--accent_color_dark);
 }

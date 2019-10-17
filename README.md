@@ -113,6 +113,7 @@ Nous avons aussi tout de suite défini quels styles de musique chacun allait abo
 |   footer.html
 |   index.html
 |   nav.html
+|   histoire.html
 |--css
 |     mobile.css
 |     style.css

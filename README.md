@@ -36,7 +36,7 @@ Le public visé par notre site sont les adolescents, les adultes et les seniors.
 
 ### c. Accès au site
 
-[WildGoat](http://wildgoat.fr/pulse/index.html) <br/> (http://wildgoat.fr/pulse/index.html)
+[WildGoat](http://wildgoat.fr/pulse/index.html) <br/> (http://wildgoat.fr/pulse)
 
 [Serveur de l'IUT](http://devweb.iutmetz.univ-lorraine.fr/~sublet1u/projet/index.html) <br/> (http://devweb.iutmetz.univ-lorraine.fr/~sublet1u/projet/index.html)
 

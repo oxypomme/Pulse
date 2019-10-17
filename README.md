@@ -2,9 +2,11 @@
 
 > La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes passionnés de musique.
 
-- [I. L'idée du site](#i-lid%c3%a9e-du-site)
+- [I. Le site](#i-le-site)
   - [a. Le contenu](#a-le-contenu)
   - [b. Le public](#b-le-public)
+  - [c. Accès au site](#c-acc%c3%a8s-au-site)
+  - [d. L'influence de la musique sur notre quotidien](#d-linfluence-de-la-musique-sur-notre-quotidien)
 - [II. Charte Graphique](#ii-charte-graphique)
   - [a. Choix des couleurs](#a-choix-des-couleurs)
   - [b. Choix des polices d'écritures](#b-choix-des-polices-d%c3%a9critures)
@@ -18,7 +20,7 @@
 
 <div style="page-break-after: always;"></div>
 
-## I. L'idée du site
+## I. Le site
 
 ### a. Le contenu
 
@@ -31,6 +33,22 @@ Ce site n'est pas une plateforme de référencement, plus d'une plateforme pour 
 ### b. Le public
 
 Le public visé par notre site sont les adolescents, les adultes et les seniors.
+
+### c. Accès au site
+
+[WildGoat](http://wildgoat.fr/site/index.html) <br/> (http://wildgoat.fr/site/index.html)
+
+[Serveur de l'IUT](http://devweb.iutmetz.univ-lorraine.fr/~sublet1u/projet/index.html) <br/> (http://devweb.iutmetz.univ-lorraine.fr/~sublet1u/projet/index.html)
+
+### d. L'influence de la musique sur notre quotidien
+
+La musique à évoluée avec la technologie, ce qui a eu pour effet de populariser la première avec la miniaturisation de la seconde.
+
+Par exemple : Pour écouter de la musique avant le 20eme siècle, il fallait aller dans un endroit conçu pour diffuser de la musique, un opéra par exemple.
+
+Avec l'invention des postes radio, on pouvait écouter la musique chez soi. Plus la technologie devenait portable (baladeurs, téléphones intelligents, etc.) plus la musique l'accompagnait à tel point que il suffit maintenant de quelques mouvements pour écouter de la musique depuis un appareil que l'on a très souvent sur soi.
+
+Le fait que la musique soit à portée de main incite donc à l'écouter plus souvent, à tel point que la musique occupe une grande place chez la plupart des jeunes (qu'ils soient ados ou adultes).
 
 ## II. Charte Graphique
 

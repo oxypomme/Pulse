@@ -190,6 +190,7 @@ header {
 .title .logo50,
 .title .logo80 {
     margin: 0 auto;
+    margin-top: 10px;
 }
 
 h2,
@@ -267,7 +268,7 @@ main {
 }
 
 section {
-    margin-top: 40px;
+    margin-top: 45px;
     border-top: 1px solid var(--main_color);
 }
 

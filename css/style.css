@@ -296,6 +296,7 @@ figure * {
     height: 300px;
     max-height: calc(50vw * 9 / 16);
     border-radius: 1em;
+    border: 0;
 }
 
 .float-left {

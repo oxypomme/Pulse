@@ -34,10 +34,12 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 .metal-bg {
-        background-image: url("../images/musicBackgrounds/mobile/metal.jpg");
-    
+    background-image: url("../images/musicBackgrounds/mobile/metal.jpg");
+
 }
+
 a {
     color: var(--accent_color_medium);
     text-decoration: none;
@@ -66,28 +68,33 @@ header {
     z-index: 3;
     box-shadow: 0 .3em .3em rgba(0, 0, 0, 25%);
 }
+
 .title {
     display: block;
     margin: 0 auto;
     width: 100vw;
     font-weight: 100;
 }
+
 .title .logo50,
 .title .logo80 {
     margin: 0 auto;
 }
+
 .logo50 {
     display: block;
     width: 100px;
     height: 50px;
     background: url("../images/logo50.png") left center;
 }
+
 .logo80 {
     display: block;
     width: 160px;
     height: 80px;
     background: url("../images/logo80.png") left center;
 }
+
 .subtitle {
     display: block;
     margin-left: auto;
@@ -164,12 +171,22 @@ figure * {
     border-radius: 1em;
     border: 0;
 }
+
 .source {
     float: right;
     font-style: italic;
     margin-top: -20px;
     color: var(--accent_color_dark);
 }
-.round{
+
+.round {
     border-radius: 100%;
+}
+
+.profile div>img {
+    height: 124px;
+}
+
+.profile p{
+    font-style: italic;
 }

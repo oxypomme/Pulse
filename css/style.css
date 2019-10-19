@@ -398,6 +398,14 @@ figcaption .little-text{
     max-width: 200px;
 }
 
+.profile div > img{
+    height: 124px;
+}
+
+.profile p{
+    font-style: italic;
+}
+
 /* ANIMATIONS */
 @keyframes slideInLeft {
     0% {

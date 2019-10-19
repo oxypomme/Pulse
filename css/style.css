@@ -370,13 +370,13 @@ footer iframe {
 .authors{
     float: right;
     flex: 2;
-    margin: -19px 0 0 15px;
     padding-left: 5px;
     border-left: 1px solid var(--main_color);
 }
 
 .footer > :not(.authors){
     flex: 1;
+    padding-right: 5px;
     text-align: right;
 }
 

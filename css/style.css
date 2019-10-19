@@ -394,7 +394,7 @@ footer iframe {
     color: var(--accent_color_medium);
 }
 
-figure {
+figure.bordered {
     margin: 20px;
     margin-top: 10px;
     padding: 5px 0px;

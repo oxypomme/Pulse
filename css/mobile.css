@@ -176,6 +176,7 @@ figure * {
     max-height: calc(50vw * 9 / 16);
     border-radius: 1em;
     border: 0;
+    margin: .5em auto;
 }
 
 .source {
@@ -195,4 +196,17 @@ figure * {
 
 .profile p{
     font-style: italic;
+}
+.spotify-integ>div{
+    max-width: 300px;
+    height: 80px;
+    margin: .5em auto;
+    z-index: 2;
+}
+.spotify-integ iframe {
+    max-width: 300px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    border-radius: 1em;
 }

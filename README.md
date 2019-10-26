@@ -1,5 +1,11 @@
 ![Logo](https://raw.githubusercontent.com/oxypomme/PT19_20/master/res/seq%20icon/80p/pulse_00000.png)
 
+---
+
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
+
 > La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes passionnés de musique.
 
 - [I. Le site](#i-le-site)
@@ -85,6 +91,8 @@ Pour la version mobile, la barre de navigation est en dessous du titre, avec un 
 <div style="page-break-after: always;"></div>
 
 ## III. Equipe
+
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 
 ### a. Répartition des tâches
 

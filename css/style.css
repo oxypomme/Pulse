@@ -311,7 +311,26 @@ figure * {
     max-width: 25vw;
     max-height: calc(25vw * 9 / 16);
 }
-
+.spotify-integ{
+    display: flex;
+}
+.spotify-integ>div{
+    flex: 1;
+    max-width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    z-index: 2;
+}
+.spotify-integ iframe {
+    max-width: 300px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    border-radius: 1em;
+}
+.spotify-integ iframe:hover {
+    height: 380px;
+}
 .float-left {
     float: left;
 }

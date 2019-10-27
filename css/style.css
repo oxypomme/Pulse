@@ -296,31 +296,37 @@ figure * {
     max-width: 50vw;
     max-height: calc(50vw * 9 / 16);
 }
-.yt-integration{
+
+.yt-integration {
     border-radius: 1em;
     width: 500px;
     height: 300px;
     border: 0;
 }
-.double-yt div{
+
+.double-yt div {
     display: flex;
 }
+
 .double-yt .yt-integration {
     display: inline-block;
     flex: 1;
     max-width: 25vw;
     max-height: calc(25vw * 9 / 16);
 }
-.spotify-integ{
+
+.spotify-integ {
     display: flex;
 }
-.spotify-integ>div{
+
+.spotify-integ>div {
     flex: 1;
     max-width: 300px;
     height: 80px;
     margin: 0 auto;
     z-index: 2;
 }
+
 .spotify-integ iframe {
     max-width: 300px;
     height: 80px;
@@ -328,9 +334,11 @@ figure * {
     padding: 0;
     border-radius: 1em;
 }
+
 .spotify-integ iframe:hover {
     height: 380px;
 }
+
 .float-left {
     float: left;
 }
@@ -362,44 +370,48 @@ footer iframe {
     height: 12.5vh;
     width: 100vw;
 }
-.footer{
+
+.footer {
     display: flex;
 }
-.footer h2{
+
+.footer h2 {
     margin-bottom: 10px;
 }
 
-.footer a{
+.footer a {
     font-weight: 400;
 }
 
-.footer p{
+.footer p {
     text-indent: 0;
     margin-left: 15px;
 }
-.footer>*{
+
+.footer>* {
     display: inline-block;
 }
+
 .contributors {
     font-style: italic;
     font-weight: 500 !important;
     margin-left: 15px;
 }
 
-.authors{
+.authors {
     float: right;
     flex: 2;
     padding-left: 5px;
     border-left: 1px solid var(--main_color);
 }
 
-.footer > :not(.authors){
+.footer> :not(.authors) {
     flex: 1;
     padding-right: 5px;
     text-align: right;
 }
 
-.footer > :not(.authors) a{
+.footer> :not(.authors) a {
     margin-right: 15px;
 }
 
@@ -477,6 +489,12 @@ figcaption .little-text {
 
 .profile p {
     font-style: italic;
+}
+
+.power {
+    position: relative;
+    bottom: 1ex;
+    font-size: 80%;
 }
 
 /* ANIMATIONS */

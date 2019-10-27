@@ -194,19 +194,27 @@ figure * {
     height: 124px;
 }
 
-.profile p{
+.profile p {
     font-style: italic;
 }
-.spotify-integ>div{
+
+.spotify-integ>div {
     max-width: 300px;
     height: 80px;
     margin: .5em auto;
     z-index: 2;
 }
+
 .spotify-integ iframe {
     max-width: 300px;
     height: 80px;
     margin: 0;
     padding: 0;
     border-radius: 1em;
+}
+
+.power {
+    position: relative;
+    bottom: 1ex;
+    font-size: 80%;
 }

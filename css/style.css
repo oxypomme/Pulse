@@ -424,6 +424,10 @@ footer iframe {
     border-radius: 100%;
 }
 
+li {
+    overflow: hidden;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
 }

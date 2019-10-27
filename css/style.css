@@ -131,21 +131,19 @@ main ul {
     margin: 5px;
 }
 
-video.head-img {
-    z-index: 0;
-}
 
 .blank-div {
     height: calc(45vh - 50px);
 }
 
 video.head-img {
+    z-index: 0;
     width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
 }
 
 header {

@@ -33,6 +33,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    text-shadow: 0 1px 0 white;
 }
 
 a {
@@ -337,6 +338,7 @@ figure * {
     margin: 0;
     padding: 0;
     border-radius: 1em;
+    transition: height .5s;
 }
 
 .spotify-integ iframe:hover {
@@ -423,6 +425,15 @@ footer iframe {
     border-radius: 100%;
 }
 
+
+li {
+    overflow: hidden;
+}
+
+.rounded-corners {
+    border-radius: 1em;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -458,6 +469,7 @@ footer iframe {
     border-radius: 10px;
     background-color: var(--accent_color_medium);
     font-size: 0.75em;
+    text-shadow: none;
 }
 
 .button:hover {

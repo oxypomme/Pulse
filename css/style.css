@@ -424,6 +424,11 @@ footer iframe {
     border-radius: 100%;
 }
 
+
+li {
+    overflow: hidden;
+}
+
 .rounded-corners {
     border-radius: 1em;
 }

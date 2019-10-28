@@ -91,6 +91,9 @@ a:hover {
     border-top-left-radius: .5em;
     border-bottom-left-radius: .5em;
     color: var(--accent_color_medium);
+    border: var(--accent_color_medium) solid 1px;
+    border-right: none;
+    padding: -1px 0;
     box-shadow: 0 0 .25em var(--accent_color_medium);
 }
 
@@ -115,6 +118,7 @@ main ul {
 .header-nav>ul li {
     list-style: none;
     padding-left: .5em;
+    margin: .1em 0;
     vertical-align: middle;
 }
 

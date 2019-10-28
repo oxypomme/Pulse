@@ -142,21 +142,19 @@ main ul {
     margin: 5px;
 }
 
-video.head-img {
-    z-index: 0;
-}
 
 .blank-div {
     height: calc(45vh - 50px);
 }
 
 video.head-img {
+    z-index: 0;
     width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
 }
 
 header {
@@ -225,8 +223,10 @@ h3,
 aside.navbar {
     position: fixed;
     top: 0;
+    left: -20vw;
     height: 100vh;
     z-index: 10;
+    transition: left .5s cubic-bezier(0.075, 0.82, 0.2, 1);
 }
 
 aside.navbar iframe {
@@ -234,9 +234,8 @@ aside.navbar iframe {
     overflow: hidden;
     width: 20vw;
     height: 100%;
-    display: none;
     box-shadow: 0 0 .5em rgba(0, 0, 0, 50%);
-    animation: slideOutLeft 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
+    display: inline-block;
 }
 
 
@@ -248,9 +247,8 @@ aside.navbar iframe {
     animation: backgroundFadeOut .25s;
 }
 
-.navbar:hover iframe {
-    display: inline-block;
-    animation: slideInLeft 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+aside.navbar:hover {
+    left: 0;
 }
 
 .navbar:hover img {
@@ -525,33 +523,6 @@ figcaption .little-text {
 }
 
 /* ANIMATIONS */
-@keyframes slideInLeft {
-    0% {
-        transform: translateX(-100%) scaleX(1) scaleY(1);
-        transform-origin: 100% 50%;
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0) scaleY(1) scaleX(1);
-        transform-origin: 50% 50%;
-        opacity: .9;
-    }
-}
-
-@keyframes slideOutLeft {
-    0% {
-        transform: translateX(0) scaleY(1) scaleX(1);
-        transform-origin: 50% 50%;
-        opacity: .9;
-    }
-
-    100% {
-        transform: translateX(-1000px) scaleX(2) scaleY(0.2);
-        transform-origin: 100% 50%;
-        opacity: 0;
-    }
-}
 
 @keyframes anim-logo50 {
     100% {
@@ -573,13 +544,6 @@ figcaption .little-text {
     }
 }
 
-.navbar iframe {
-    animation: slideOutLeft 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
-}
-
-.navbar:hover iframe {
-    animation: slideInLeft 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-}
 
 .logo50:hover {
     animation: anim-logo50 0.5s steps(30);

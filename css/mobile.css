@@ -38,7 +38,10 @@ body {
 
 .metal-bg {
     background-image: url("../images/musicBackgrounds/mobile/metal.jpg");
+}
 
+.rock-bg {
+    background-image: url("../images/musicBackgrounds/rock.jpg");
 }
 
 a {

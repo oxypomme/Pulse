@@ -33,7 +33,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    text-shadow: 0 1px 0 white;
+    text-shadow: 0 1px 0 var(--bg80);
 }
 
 a {

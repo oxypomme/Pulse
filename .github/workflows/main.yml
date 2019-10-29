@@ -1,0 +1,19 @@
+name: AutoUpdate FTP
+
+on: 
+  push:
+    branches:
+    - master
+
+jobs:
+  FTP-Action:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Upload to FTP
+      uses: sebastianpopp/ftp-action@v1.0.0
+      with: 
+        host: files.000webhost.com
+        user: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        remoteDir: "public_html"

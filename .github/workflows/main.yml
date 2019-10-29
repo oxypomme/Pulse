@@ -1,6 +1,9 @@
 name: AutoUpdate FTP
 
-on: push
+on: 
+  push:
+    branches:
+    - master
 
 jobs:
   FTP-Action:

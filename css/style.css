@@ -81,6 +81,7 @@ a:hover {
 .spotify-icon {
     height: 1.2em;
     transition: filter .25s;
+    vertical-align: middle;
 }
 
 .spotify-icon:hover {

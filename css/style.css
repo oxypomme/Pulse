@@ -19,6 +19,7 @@ html {
     --Hue: 176;
     --main_color: hsl(var(--Hue), 80%, 45%);
     --accent_color_light: hsl(var(--Hue), 100%, 80%);
+    --accent_color_ultra_light: hsl(var(--Hue), 100%, 95%);
     --accent_color_medium: hsl(var(--Hue), 80%, 45%);
     --accent_color_medium_0: hsla(var(--Hue), 80%, 45%, 1%);
     --accent_color_dark: hsl(var(--Hue), 60%, 30%);
@@ -56,6 +57,7 @@ a:hover {
     text-decoration: none;
     font-weight: normal;
     display: block;
+    transition: background-color .25s;
 }
 
 .logo-title {
@@ -69,7 +71,6 @@ a:hover {
 .header-nav a>* {
     display: inline-block;
     vertical-align: top;
-    height: 2.5em;
 }
 
 .header-nav a:hover img {
@@ -84,8 +85,7 @@ a:hover {
     filter: invert(52%) sepia(88%) saturate(407%) hue-rotate(89deg) brightness(107%) contrast(98%);
 }
 .header-nav a img {
-    height: 1.25em;
-    transform: translate(0, 50%);
+    height: 32px;
 }
 
 .nav-text {
@@ -97,10 +97,8 @@ a:hover {
     border-top-left-radius: .5em;
     border-bottom-left-radius: .5em;
     color: var(--accent_color_medium);
-    border: var(--accent_color_medium) solid 1px;
-    border-right: none;
     padding: -1px 0;
-    box-shadow: 0 0 .25em var(--accent_color_medium);
+    background-color: var(--accent_color_ultra_light);
 }
 
 main ul {
@@ -128,9 +126,6 @@ main ul {
     vertical-align: middle;
 }
 
-.header-nav img {
-    height: 2.5em;
-}
 
 .header-nav .dropdown-title {
     display: block;
@@ -434,7 +429,7 @@ footer iframe {
 }
 
 
-li {
+li:not(.header-nav *) {
     overflow: hidden;
 }
 

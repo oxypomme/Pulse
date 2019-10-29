@@ -79,7 +79,7 @@ a:hover {
 }
 
 .spotify-icon {
-    height: 1.2em;
+    width: 1.6em;
     transition: filter .25s;
 }
 

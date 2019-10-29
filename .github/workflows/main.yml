@@ -16,4 +16,4 @@ jobs:
         host: ftp.cluster027.hosting.ovh.net
         user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        remoteDir: "public_html"
+        remoteDir: "www/pulse"

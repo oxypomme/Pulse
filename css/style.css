@@ -374,6 +374,53 @@ figure * {
     height: 380px;
 }
 
+.multi-link:hover {
+    background-color: var(--bg80);
+    border: var(--fontBase) solid 1px;
+    border-bottom: none;
+    margin: 0 1px 1px 1px;
+}
+.multi-link {
+    margin: 1px;
+    position: relative;
+    display: inline-block;
+    padding: .25em;
+}
+
+.multi-link>span {
+    text-decoration: solid var(--accent_color_medium) underline;
+    font-weight: bold;
+}
+
+.multi-link>div {
+    margin-top: 1.3em 0 0 0;
+    display: none;
+    left: -1px;
+    width: calc(100% + 2px);
+    border-radius: 1em;
+    border: var(--fontBase) solid 1px;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    position: absolute;
+    background-color: var(--bg80);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: .25em;
+    z-index: 1;
+}
+.multi-link>div>a {
+    display: inline-block;
+    width: max-content;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.multi-link:hover>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .float-left {
     float: left;
 }

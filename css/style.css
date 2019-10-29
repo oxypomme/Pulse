@@ -522,6 +522,10 @@ figcaption .little-text {
     font-size: 80%;
 }
 
+.mobile{
+    display: none;
+}
+
 /* ANIMATIONS */
 
 @keyframes anim-logo50 {

@@ -41,7 +41,7 @@ body {
 }
 
 .rock-bg {
-    background-image: url("../images/musicBackgrounds/rock.jpg");
+    background-image: url("../images/musicBackgrounds/mobile/rock.jpg");
 }
 
 a {
@@ -225,4 +225,8 @@ figure * {
 .spotify-icon{
     height: 1.6em;
     filter: invert(52%) sepia(88%) saturate(407%) hue-rotate(89deg) brightness(107%) contrast(98%);
+}
+
+.computer{
+    display: none;
 }

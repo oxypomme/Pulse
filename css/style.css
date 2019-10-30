@@ -386,21 +386,23 @@ figure * {
     height: 380px;
 }
 
+.multi-link {
+    text-align: left;
+    text-indent: 0;
+    margin: 0 0 0 0;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
 .multi-link:hover {
     background-color: var(--bg80);
     border: var(--fontBase) solid 1px;
     border-bottom: none;
     margin: 0 1px 1px 1px;
     min-width: 6em;
-    display: inline-block;
+    padding: 0 .25em .25em .25em;
     z-index: 3;
-}
-
-.multi-link {
-    margin: 1px;
-    position: relative;
-    display: inline;
-    padding: .25em;
 }
 
 .multi-link>div {
@@ -408,11 +410,9 @@ figure * {
     display: none;
     left: -1px;
     width: calc(100% + 2px);
-    border-radius: 1em;
+    border-radius: 0 0 1em 1em;
     border: var(--fontBase) solid 1px;
     border-top: none;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
     position: absolute;
     background-color: var(--bg80);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -428,7 +428,7 @@ figure * {
     flex: 1;
 }
 
-.multi-linkhover>div {
+.multi-link:hover>div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -446,7 +446,8 @@ article {
     padding: 0px 10px;
 }
 
-.paragraph, p {
+.paragraph,
+p {
     text-align: justify;
     text-indent: 2em;
     margin: auto auto 16px auto;

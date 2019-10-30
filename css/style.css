@@ -386,6 +386,14 @@ figure * {
     height: 380px;
 }
 
+.multi-link {
+    margin: 1px;
+    position: relative;
+    display: inline;
+    padding: .25em;
+    text-align: center;
+}
+
 .multi-link:hover {
     background-color: var(--bg80);
     border: var(--fontBase) solid 1px;
@@ -396,23 +404,14 @@ figure * {
     z-index: 3;
 }
 
-.multi-link {
-    margin: 1px;
-    position: relative;
-    display: inline;
-    padding: .25em;
-}
-
 .multi-link>div {
     margin-top: 1.3em 0 0 0;
     display: none;
     left: -1px;
     width: calc(100% + 2px);
-    border-radius: 1em;
+    border-radius: 0 0 1em 1em;
     border: var(--fontBase) solid 1px;
     border-top: none;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
     position: absolute;
     background-color: var(--bg80);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -446,7 +445,7 @@ article {
     padding: 0px 10px;
 }
 
-.paragraph, p {
+.paragraph :not(.multi-link *), p {
     text-align: justify;
     text-indent: 2em;
     margin: auto auto 16px auto;

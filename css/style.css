@@ -303,6 +303,10 @@ main {
     background-image: url("../images/musicBackgrounds/metal.jpg");
 }
 
+.alt-bg {
+    background-image: url("../images/musicBackgrounds/alt.jpg");
+}
+
 .rock-bg {
     background-image: url("../images/musicBackgrounds/rock.jpg");
 }

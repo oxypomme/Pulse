@@ -428,7 +428,7 @@ figure * {
     flex: 1;
 }
 
-.multi-linkhover>div {
+.multi-link:hover>div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

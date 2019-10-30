@@ -253,4 +253,5 @@ figure * {
 .multi-link,
 .multi-link * {
     display: inline;
+    font-weight: bold;
 }

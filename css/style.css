@@ -109,7 +109,7 @@ a:hover,
 
 .wiki-icon:hover {
     /* https://codepen.io/sosuke/pen/Pjoqqp */
-    filter: invert(43%) sepia(0%) saturate(310%) hue-rotate(251deg) brightness(88%) contrast(83%);
+    filter: invert(22%) sepia(18%) saturate(6855%) hue-rotate(215deg) brightness(91%) contrast(93%);
 }
 
 .header-nav a img {
@@ -378,6 +378,7 @@ figure * {
     margin: 0;
     padding: 0;
     border-radius: 1em;
+    border: none;
     transition: height .5s;
 }
 

@@ -389,8 +389,9 @@ figure * {
 .multi-link {
     text-align: left;
     text-indent: 0;
-    margin: 0 0 0 0;
+    margin: 0;
     position: relative;
+    padding: 0 .2em;
     display: inline-block;
     text-align: center;
 }
@@ -399,9 +400,7 @@ figure * {
     background-color: var(--bg80);
     border: var(--fontBase) solid 1px;
     border-bottom: none;
-    margin: 0 1px 1px 1px;
-    min-width: 6em;
-    padding: 0 .25em .25em .25em;
+    margin : -1px;
     z-index: 3;
 }
 
@@ -412,7 +411,6 @@ figure * {
     width: calc(100% + 2px);
     border-radius: 0 0 1em 1em;
     border: var(--fontBase) solid 1px;
-    border-top: none;
     position: absolute;
     background-color: var(--bg80);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -429,8 +427,8 @@ figure * {
 }
 
 .multi-link:hover>div {
+    min-width: 6em;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 

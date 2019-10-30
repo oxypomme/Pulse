@@ -162,7 +162,8 @@ article {
     padding: 0px 10px;
 }
 
-.paragraph, p {
+.paragraph,
+p {
     text-align: justify;
     text-indent: 2em;
 }
@@ -247,4 +248,9 @@ figure * {
 
 .computer {
     display: none;
+}
+
+.multi-link,
+.multi-link * {
+    display: inline;
 }

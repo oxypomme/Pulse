@@ -387,10 +387,8 @@ figure * {
 }
 
 .multi-link {
-    margin: 1px;
     position: relative;
-    display: inline;
-    padding: .25em;
+    display: inline-block;
     text-align: center;
 }
 
@@ -400,7 +398,8 @@ figure * {
     border-bottom: none;
     margin: 0 1px 1px 1px;
     min-width: 6em;
-    display: inline-block;
+    margin: 1px;
+    padding: .25em;
     z-index: 3;
 }
 

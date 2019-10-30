@@ -243,6 +243,7 @@ figure * {
 
 .wiki-icon {
     height: 1.6em;
+    filter: invert(22%) sepia(18%) saturate(6855%) hue-rotate(215deg) brightness(91%) contrast(93%);
     vertical-align: middle;
 }
 

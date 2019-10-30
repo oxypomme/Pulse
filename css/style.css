@@ -388,6 +388,7 @@ figure * {
     border: var(--fontBase) solid 1px;
     border-bottom: none;
     margin: 0 1px 1px 1px;
+    min-width: 6em;
     z-index: 3;
 }
 
@@ -396,7 +397,6 @@ figure * {
     position: relative;
     display: inline-block;
     padding: .25em;
-    min-width: 100px;
 }
 
 .multi-link>div {

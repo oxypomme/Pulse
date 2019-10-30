@@ -93,6 +93,7 @@ a:hover,
 .yt-icon {
     width: 1.6em;
     transition: filter .25s;
+    vertical-align: middle;
 }
 
 .yt-icon:hover {
@@ -103,6 +104,7 @@ a:hover,
 .wiki-icon {
     width: 1.6em;
     transition: filter .25s;
+    vertical-align: middle;
 }
 
 .wiki-icon:hover {

@@ -230,15 +230,18 @@ figure * {
 .spotify-icon {
     height: 1.6em;
     filter: invert(52%) sepia(88%) saturate(407%) hue-rotate(89deg) brightness(107%) contrast(98%);
+    vertical-align: middle;
 }
 
 .yt-icon {
     height: 1.6em;
     filter: invert(9%) sepia(100%) saturate(7486%) hue-rotate(360deg) brightness(105%) contrast(107%);
+    vertical-align: middle;
 }
 
 .wiki-icon {
     height: 1.6em;
+    vertical-align: middle;
 }
 
 .computer {

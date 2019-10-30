@@ -162,7 +162,7 @@ article {
     padding: 0px 10px;
 }
 
-p {
+.paragraph, p {
     text-align: justify;
     text-indent: 2em;
 }

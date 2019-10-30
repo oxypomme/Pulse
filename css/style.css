@@ -391,13 +391,14 @@ figure * {
     border-bottom: none;
     margin: 0 1px 1px 1px;
     min-width: 6em;
+    display: inline-block;
     z-index: 3;
 }
 
 .multi-link {
     margin: 1px;
     position: relative;
-    display: inline-block;
+    display: inline;
     padding: .25em;
 }
 
@@ -426,7 +427,7 @@ figure * {
     flex: 1;
 }
 
-.multi-link:hover>div {
+.multi-linkhover>div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -444,7 +445,7 @@ article {
     padding: 0px 10px;
 }
 
-p {
+.paragraph, p {
     text-align: justify;
     text-indent: 2em;
     margin: auto auto 16px auto;

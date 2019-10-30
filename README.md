@@ -2,9 +2,11 @@
 
 ---
 
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
+[![w3c](https://img.shields.io/w3c-validation/html?style=for-the-badge&targetUrl=http%3A%2F%2Fwildgoat.fr%2Fpulse%2Findex.html)](https://shields.io/)
+
+<a href="https://forthebadge.com/"><img src="https://forthebadge.com/images/badges/uses-html.svg" alt="forthebadge" height="28"/></a>
+<a href="https://forthebadge.com/"><img src="https://forthebadge.com/images/badges/uses-css.svg" alt="forthebadge" height="28"/></a>
+<a href="https://forthebadge.com/"><img src="https://forthebadge.com/images/badges/uses-badges.svg" alt="forthebadge" height="28"/></a>
 
 > La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes passionnés de musique.
 
@@ -92,7 +94,7 @@ Pour la version mobile, la barre de navigation est en dessous du titre, avec un 
 
 ## III. Equipe
 
-[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+<!--[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)-->
 
 ### a. Répartition des tâches
 

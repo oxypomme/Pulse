@@ -316,6 +316,15 @@ main {
 .pop-bg {
     background-image: url("../images/musicBackgrounds/pop.jpg");
 }
+
+.rap-bg {
+    background-image: url("../images/musicBackgrounds/rap.jpg")
+}
+
+.electro-bg {
+    background-image: url("../images/musicBackgrounds/electro.jpg")
+}
+
 section {
     margin-top: 45px;
     border-top: 1px solid var(--main_color);

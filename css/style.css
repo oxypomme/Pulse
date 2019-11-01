@@ -313,7 +313,9 @@ main {
 .rock-bg {
     background-image: url("../images/musicBackgrounds/rock.jpg");
 }
-
+.pop-bg {
+    background-image: url("../images/musicBackgrounds/pop.jpg");
+}
 section {
     margin-top: 45px;
     border-top: 1px solid var(--main_color);

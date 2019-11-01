@@ -69,7 +69,11 @@ a:hover,
 .logo-title+hr {
     border-top: solid 1px var(--accent_color_medium);
 }
-
+.no-overflow
+{
+    overflow: hidden;
+    padding-bottom: 2em;
+}
 .header-nav a>* {
     display: inline-block;
     vertical-align: top;

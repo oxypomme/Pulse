@@ -130,7 +130,7 @@ aside.navbar div:not(.dark-back):hover iframe {
     box-shadow: 0 0 32px;
 }
 aside.navbar div:not(.dark-back):hover img {
-    visibility: hidden;
+    opacity: 0;
 }
 aside.navbar div:not(.dark-back):hover+div{
     opacity: .8;
@@ -154,9 +154,6 @@ aside.navbar img {
     z-index: 9;
     height: 100vh;
     transition: opacity .25s;
-}
-
-aside.navbar {
 }
 
 main {

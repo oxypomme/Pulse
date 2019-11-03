@@ -318,11 +318,11 @@ main {
 }
 
 .rap-bg {
-    background-image: url("../images/musicBackgrounds/rap.jpg")
+    background-image: url("../images/musicBackgrounds/rap.jpg");
 }
 
 .electro-bg {
-    background-image: url("../images/musicBackgrounds/electro.jpg")
+    background-image: url("../images/musicBackgrounds/electro.jpg");
 }
 
 section {

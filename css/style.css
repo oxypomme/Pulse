@@ -628,6 +628,11 @@ figcaption .little-text {
     display: none;
 }
 
+.tiesto {
+    text-align: center;
+}
+
+
 /* ANIMATIONS */
 
 @keyframes anim-logo50 {
@@ -657,8 +662,4 @@ figcaption .little-text {
 
 .logo80:hover {
     animation: anim-logo80 0.5s steps(30);
-}
-
-.tiesto {
-    text-align: center;
 }

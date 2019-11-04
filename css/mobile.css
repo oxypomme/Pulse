@@ -221,7 +221,6 @@ figure * {
 }
 
 .source {
-    float: right;
     font-style: italic;
     margin-top: -20px;
     color: var(--accent_color_dark);

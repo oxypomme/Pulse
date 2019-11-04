@@ -44,9 +44,9 @@ Le public visé par notre site sont les adolescents, les adultes et les seniors.
 
 ### c. Accès au site
 
-[WildGoat](http://wildgoat.fr/pulse/index.html) <br/> (http://wildgoat.fr/pulse)
+[WildGoat](http://wildgoat.fr/pulse/index.html) <br/> (<http://wildgoat.fr/pulse>)
 
-[Serveur de l'IUT](http://devweb.iutmetz.univ-lorraine.fr/~sublet1u/projet/index.html) <br/> (http://devweb.iutmetz.univ-lorraine.fr/~sublet1u/projet/index.html)
+[Serveur de l'IUT](http://devweb.iutmetz.univ-lorraine.fr/~sublet1u/projet/index.html) <br/> (<http://devweb.iutmetz.univ-lorraine.fr/~sublet1u/projet/index.html>)
 
 ### d. L'influence de la musique sur notre quotidien
 
@@ -57,6 +57,8 @@ Par exemple : Pour écouter de la musique avant le 20eme siècle, il fallait all
 Avec l'invention des postes radio, on pouvait écouter la musique chez soi. Plus la technologie devenait portable (baladeurs, téléphones intelligents, etc.) plus la musique l'accompagnait à tel point que il suffit maintenant de quelques mouvements pour écouter de la musique depuis un appareil que l'on a très souvent sur soi.
 
 Le fait que la musique soit à portée de main incite donc à l'écouter plus souvent, à tel point que la musique occupe une grande place chez la plupart des jeunes (qu'ils soient ados ou adultes).
+
+<div style="page-break-after: always;"></div>
 
 ## II. Charte Graphique
 
@@ -71,8 +73,6 @@ Nous avons choisi ces principales couleurs :
 
 Nous avons choisi de faire un thème lumineux pour une meilleure intégration du contenu. Le fond sera donc d'une couleur claire (blanche) avec un motif discret pour éviter un fond ennuyant.
 
-<div style="page-break-after: always;"></div>
-
 Le fond de la navigation sera distingué du reste de la page grâce à une image floutée, en fonction du style de musique.
 
 Les couleurs choisies sont en accord avec le fond, le texte est avec un contraste suffisamment élevé pour rester lisible.
@@ -80,6 +80,8 @@ Les couleurs choisies sont en accord avec le fond, le texte est avec un contrast
 ### b. Choix des polices d'écritures
 
 Nous avons choisit une police d'écriture légère et fine (Roboto avec un poids de 100) pour le titre afin de rester dans un thème léger. Le reste du texte est avec la même police d'écriture mais avec un poids plus grand (400).
+
+<div style="page-break-after: always;"></div>
 
 ### c. Structure des pages
 
@@ -119,7 +121,7 @@ Nous avons aussi tout de suite défini quels styles de musique chacun allait abo
 
 ### a. Structure
 
-```bash
+```md
 |   footer.html
 |   index.html
 |   nav.html
@@ -138,16 +140,19 @@ Nous avons aussi tout de suite défini quels styles de musique chacun allait abo
 |     alternative.html
 |
 \--images
-   |    background.svg
-   |    fleche.png
-   |    ligne.png
-   |    logo.png
-   |    pageIcon.png
-   |    ... et autres images
+   |    // C'est ici que les images et vidéos sont stockées
+   |
+   |--icons
+   |      // C'est ici que sont les icones (de la barre de navigation)
+   |
    \--musicBackgrounds
-          metal.jpg
-          ... et autres fond pour les pages de musique
+      |   // Les fond pour les pages de musique sont ici
+      |
+      \--mobile
+            // Ici, ce sont les fonds mobiles
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### b. Exemple de page
 

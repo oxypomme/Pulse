@@ -40,12 +40,24 @@ body {
     background-image: url("../images/musicBackgrounds/mobile/metal.jpg");
 }
 
+.alt-bg {
+    background-image: url("../images/musicBackgrounds/mobile/alt.jpg");
+}
+
 .rock-bg {
     background-image: url("../images/musicBackgrounds/mobile/rock.jpg");
 }
 
-.alt-bg {
-    background-image: url("../images/musicBackgrounds/mobile/alt.jpg");
+.pop-bg {
+    background-image: url("../images/musicBackgrounds/mobile/pop.jpg");
+}
+
+.rap-bg {
+    background-image: url("../images/musicBackgrounds/mobile/rap.jpg");
+}
+
+.electro-bg {
+    background-image: url("../images/musicBackgrounds/mobile/electro.jpg");
 }
 
 a {
@@ -221,7 +233,6 @@ figure * {
 }
 
 .source {
-    float: right;
     font-style: italic;
     margin-top: -20px;
     color: var(--accent_color_dark);

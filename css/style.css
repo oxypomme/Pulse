@@ -258,9 +258,11 @@ aside.navbar {
     z-index: 10;
     transition: left .5s cubic-bezier(0.075, 0.82, 0.2, 1);
 }
-aside.navbar div{
+
+aside.navbar div {
     height: 100%;
 }
+
 aside.navbar iframe {
     border: 0;
     overflow: hidden;
@@ -316,6 +318,7 @@ main {
 .rock-bg {
     background-image: url("../images/musicBackgrounds/rock.jpg");
 }
+
 .pop-bg {
     background-image: url("../images/musicBackgrounds/pop.jpg");
 }
@@ -398,6 +401,7 @@ figure * {
     margin: 0 1em;
     flex: 1;
 }
+
 .yt-integ>div>div>div {
     position: relative;
     margin: 0 auto;
@@ -628,6 +632,11 @@ figcaption .little-text {
     display: none;
 }
 
+.tiesto {
+    text-align: center;
+}
+
+
 /* ANIMATIONS */
 
 @keyframes anim-logo50 {
@@ -657,8 +666,4 @@ figcaption .little-text {
 
 .logo80:hover {
     animation: anim-logo80 0.5s steps(30);
-}
-
-.tiesto {
-    text-align: center;
 }

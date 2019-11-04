@@ -5,9 +5,18 @@ columbine: https://fr.wikipedia.org/wiki/Columbine_(groupe)
 nekfeu: https://fr.wikipedia.org/wiki/Nekfeu
 pnl: https://fr.wikipedia.org/wiki/PNL_(groupe)
 eminem: https://fr.wikipedia.org/wiki/Eminem
+kanye west: https://fr.wikipedia.org/wiki/Kanye_West
+fat joe: https://fr.wikipedia.org/wiki/Fat_Joe
+asap rocky:https://fr.wikipedia.org/wiki/ASAP_Rocky
+XXXTentacion:https://fr.wikipedia.org/wiki/XXXTentacion
+Jay Z:https://fr.wikipedia.org/wiki/Jay-Z
+Snoop Dog:https://fr.wikipedia.org/wiki/Snoop_Dogg
+Dr Dre: https://fr.wikipedia.org/wiki/Dr._Dre
+
 
 electro
 
 avicii: https://fr.wikipedia.org/wiki/Avicii
 martin garrix: https://fr.wikipedia.org/wiki/Martin_Garrix
 tiesto:https://fr.wikipedia.org/wiki/Ti%C3%ABsto
+

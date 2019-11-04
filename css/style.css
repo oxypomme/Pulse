@@ -650,3 +650,7 @@ figcaption .little-text {
 .logo80:hover {
     animation: anim-logo80 0.5s steps(30);
 }
+
+.tiesto {
+    text-align: center;
+}

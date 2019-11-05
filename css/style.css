@@ -69,11 +69,12 @@ a:hover,
 .logo-title+hr {
     border-top: solid 1px var(--accent_color_medium);
 }
-.no-overflow
-{
+
+.no-overflow {
     overflow: hidden;
     padding-bottom: 2em;
 }
+
 .header-nav a>* {
     display: inline-block;
     vertical-align: top;
@@ -257,9 +258,11 @@ aside.navbar {
     z-index: 10;
     transition: left .5s cubic-bezier(0.075, 0.82, 0.2, 1);
 }
-aside.navbar div{
+
+aside.navbar div {
     height: 100%;
 }
+
 aside.navbar iframe {
     border: 0;
     overflow: hidden;
@@ -315,8 +318,13 @@ main {
 .rock-bg {
     background-image: url("../images/musicBackgrounds/rock.jpg");
 }
+
 .pop-bg {
+<<<<<<< HEAD
     background-image: url("../images/musicBackgrounds/pop3.jpg");
+=======
+    background-image: url("../images/musicBackgrounds/pop.jpg");
+>>>>>>> f353c8c25a998335b4f5a5765266b901ae098026
 }
 
 .rap-bg {
@@ -350,30 +358,6 @@ figure * {
     margin: 0 auto;
 }
 
-.simple-yt .yt-integration {
-    display: block;
-    max-width: 50vw;
-    max-height: calc(50vw * 9 / 16);
-}
-
-.yt-integration {
-    border-radius: 1em;
-    width: 500px;
-    height: 300px;
-    border: 0;
-}
-
-.double-yt div {
-    display: flex;
-}
-
-.double-yt .yt-integration {
-    display: inline-block;
-    flex: 1;
-    max-width: 25vw;
-    max-height: calc(25vw * 9 / 16);
-}
-
 .spotify-integ {
     display: flex;
 }
@@ -396,6 +380,38 @@ figure * {
     transition: height .5s;
 }
 
+.yt-integ>div {
+    display: flex;
+    max-height: calc(25vh + 1em);
+}
+
+.yt-integ iframe {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 25vh;
+    max-width: 25vw;
+    padding: 0;
+    border-radius: 1em;
+    border: none;
+}
+
+.yt-integ>div>div {
+    margin: 0 1em;
+    flex: 1;
+}
+
+.yt-integ>div>div>div {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 56.25%;
+}
+
 .spotify-integ iframe:hover {
     height: 380px;
 }
@@ -414,7 +430,7 @@ figure * {
     background-color: var(--bg80);
     border: var(--fontBase) solid 1px;
     border-bottom: none;
-    margin : -1px;
+    margin: -1px;
     z-index: 3;
 }
 
@@ -619,6 +635,11 @@ figcaption .little-text {
 .mobile {
     display: none;
 }
+
+.tiesto , .columbine , .pnl {
+    text-align: center;
+}
+
 
 /* ANIMATIONS */
 

@@ -321,6 +321,7 @@ main {
 
 .pop-bg {
     background-image: url("../images/musicBackgrounds/pop.jpg");
+    background-attachment: scroll;
 }
 
 .rap-bg {

@@ -222,16 +222,6 @@ figure * {
     text-align: center;
 }
 
-.yt-integration {
-    width: 500px;
-    max-width: 50vw;
-    height: 300px;
-    max-height: calc(50vw * 9 / 16);
-    border-radius: 1em;
-    border: 0;
-    margin: .5em auto;
-}
-
 .source {
     font-style: italic;
     margin-top: -20px;
@@ -302,4 +292,8 @@ figure * {
 
 .no-top-separator {
     border-top: none;
+}
+.yt-integ iframe{
+    border: none;
+    border-radius: 1em;
 }

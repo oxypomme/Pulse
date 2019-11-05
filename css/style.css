@@ -320,7 +320,11 @@ main {
 }
 
 .pop-bg {
+<<<<<<< HEAD
+    background-image: url("../images/musicBackgrounds/pop3.jpg");
+=======
     background-image: url("../images/musicBackgrounds/pop.jpg");
+>>>>>>> f353c8c25a998335b4f5a5765266b901ae098026
 }
 
 .rap-bg {
@@ -632,7 +636,7 @@ figcaption .little-text {
     display: none;
 }
 
-.tiesto {
+.tiesto , .columbine , .pnl {
     text-align: center;
 }
 

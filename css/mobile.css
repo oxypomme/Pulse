@@ -138,17 +138,21 @@ aside.navbar iframe {
     z-index: 10;
     transition: left .25s;
 }
+
 aside.navbar div:not(.dark-back):hover iframe {
     left: 0;
     box-shadow: 0 0 32px;
 }
+
 aside.navbar div:not(.dark-back):hover img {
     opacity: 0;
 }
-aside.navbar div:not(.dark-back):hover+div{
+
+aside.navbar div:not(.dark-back):hover+div {
     opacity: .8;
     visibility: visible;
 }
+
 aside.navbar img {
     position: fixed;
     z-index: 10;
@@ -294,9 +298,14 @@ figure * {
 .no-top-separator {
     border-top: none;
 }
-.yt-integ iframe{
+
+.yt-integ iframe {
     border: none;
     border-radius: 1em;
     width: 50vw;
     height: calc(50vw * 9 / 16);
+}
+
+.yt-integ>div>div+div {
+    margin-top: 1em;
 }

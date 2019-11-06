@@ -8,7 +8,7 @@
 <a href="https://forthebadge.com/"><img src="https://forthebadge.com/images/badges/uses-css.svg" alt="forthebadge" height="28"/></a>
 <a href="https://forthebadge.com/"><img src="https://forthebadge.com/images/badges/uses-badges.svg" alt="forthebadge" height="28"/></a>
 
-> La musique est de plus en plus présente dans notre vie au quotidien. Quel impact a t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes passionnés de musique.
+> La musique est de plus en plus présente dans notre vie au quotidien. Quel impact à t-elle vraiment au quotidien et sous quelles formes ? C'est pour répondre a ceci que nous avons conçu ce site car nous sommes passionnés de musique.
 
 - [I. Le site](#i-le-site)
   - [a. Le contenu](#a-le-contenu)

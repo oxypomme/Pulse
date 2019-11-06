@@ -297,4 +297,6 @@ figure * {
 .yt-integ iframe{
     border: none;
     border-radius: 1em;
+    width: 50vw;
+    height: calc(50vw * 9 / 16);
 }

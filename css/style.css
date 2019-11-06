@@ -406,7 +406,7 @@ figure * {
 
 .yt-integ>div>div>div {
     position: relative;
-    max-width: 25vw;
+    pointer-events: none;
     margin: 0 auto;
     padding-top: 56.25%;
 }

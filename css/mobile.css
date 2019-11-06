@@ -226,7 +226,9 @@ figure * {
     margin: 0 auto;
     text-align: center;
 }
-
+.button{
+    display: block;
+}
 .source {
     font-style: italic;
     margin-top: -20px;

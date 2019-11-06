@@ -50,6 +50,7 @@ body {
 
 .pop-bg {
     background-image: url("../images/musicBackgrounds/mobile/pop.jpg");
+    background-attachment: scroll;
 }
 
 .rap-bg {
@@ -153,7 +154,7 @@ aside.navbar img {
     z-index: 10;
     top: 1em;
     left: 1em;
-    width: 3em;
+    width: 2em;
 }
 
 .dark-back {
